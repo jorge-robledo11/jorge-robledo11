@@ -1,4 +1,6 @@
-### Hi there 👋
+### About me 👋
+
+Hi there!😸 My name is Jorge Robledo. I'm a 28 years old Economist 🧑‍💼 and Data Scientist 👨‍💻 currently reside in Barranquilla, Colombia.
 
 <!--
 **jorge-robledo11/jorge-robledo11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
