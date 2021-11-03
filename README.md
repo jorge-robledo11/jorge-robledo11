@@ -3,7 +3,7 @@
 Hey there!😸 My name is Jorge Robledo. I'm a 28 years old Economist 👨‍💼💼 and Data Scientist 👨‍💻 currently reside in Barranquilla, Colombia.
 Talking about myself, I am a self-taught person and a videogame lover 🎮👾. My interests are related to the possibility of finding opportunities for my personal and professional growth.
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jorge-robledo11&show_icons=true&theme=dracula)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jorge-robledo11&show_icons=true&theme=onedark)
 
 <!--
 **jorge-robledo11/jorge-robledo11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
