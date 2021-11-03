@@ -1,5 +1,5 @@
 ### Hey there! 😸 
-My name is Jorge Robledo, currently reside in Barranquilla, Colombia 🇨🇴
+My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia 🇨🇴
 
 ### About me 👋🏻
 - I'm an Economist 👨🏻‍💼💼 and Data Scientist at [Platzi](https://platzi.com/p/robledo.1337/)👨🏻‍💻 
@@ -13,15 +13,13 @@ My name is Jorge Robledo, currently reside in Barranquilla, Colombia 🇨🇴
 
 <h2 align="center">You can reach me at 📪</h2>
 
-  <a href="https://https://facebook.com/https://www.facebook.com/jorge.a.robledo.9//">
+  <a href="https://https://www.facebook.com/jorge.a.robledo.9//">
     <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" height="25" width="25">
   </a>
 
-  <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/jorge-andr%C3%A9s-robledo-ariza/">
+  <a href="https://www.linkedin.com/in/jorge-andr%C3%A9s-robledo-ariza/">
     <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" height="25" width="25">
   </a>
-  
-   
 
 <p align="center"><img src="https://media.giphy.com/media/fDzM81OYrNjJC/source.gif?cid=ecf05e471mkgebs0ci5cquqshmfeg7fbpcbmws5rspjgh31e&rid=source.gif&ct=g" alt="Synthwave" height="200" width="350"></p>
 
