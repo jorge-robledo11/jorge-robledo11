@@ -14,11 +14,11 @@ My name is Jorge Robledo, currently reside in Barranquilla, Colombia 🇨🇴
 <h2 align="center">You can reach me at :alien:</h2>
 
   <a href="https://https://facebook.com/https://www.facebook.com/jorge.a.robledo.9//">
-    <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" alt="Jorge Andres Robledo Ariza's Facebook Profile" height="30" width="30">
+    <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" height="30" width="30">
   </a>
 
   <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/jorge-andr%C3%A9s-robledo-ariza/">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Jorge Andrés Robledo Ariza's LinkedIn Profile" height="30" width="30">
+    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" height="30" width="30">
   </a>
   
    
