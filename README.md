@@ -23,7 +23,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia 🇨�
 
 <p align="center"><img src="https://media.giphy.com/media/fDzM81OYrNjJC/source.gif?cid=ecf05e471mkgebs0ci5cquqshmfeg7fbpcbmws5rspjgh31e&rid=source.gif&ct=g" alt="Synthwave" height="200" width="350"></p>
 
-
 <!--
 **jorge-robledo11/jorge-robledo11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
