@@ -13,10 +13,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 <h2 align="center">You can reach me at 📪</h2>
 
-  <a href="https://www.facebook.com/jorge.a.robledo.9//">
-    <img src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg" height="25" width="25">
-  </a>
-
   <a href="https://www.linkedin.com/in/jorge-andr%C3%A9s-robledo-ariza/">
     <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" height="25" width="25">
   </a>
