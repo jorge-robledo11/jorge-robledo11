@@ -18,7 +18,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ### Frameworks & Libraries
 ![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-learn Badge](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -35,3 +34,8 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ![microsoftsqlserver Badge](https://img.shields.io/badge/SQL_Server-CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![microsoftexcel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![PowerBI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
+
+---
+### Certifications
+![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)(https://www.udemy.com/user/jorge-robledo-12/)
+![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)
