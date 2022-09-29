@@ -8,8 +8,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 - I like listening to music 🎧 and training 🏃🏻‍♂️
 ---
 ### Languages & Frameworks
-![Python Badge](https://img.shields.io/badge/Python-100000?style=for-the-badge&logo=python&logoColor=darkgreen=plastic)
-![JN Badge](https://img.shields.io/badge/Jupyter-100000.svg?&style=for-the-badge&logo=Jupyter&logoColor=whiten=plastic)
-![Scrapy Badge](https://img.shields.io/badge/Scrapy-100000.svg?&style=for-the-badge&logo=Scrapy&logoColor=whiten=plastic)
+![Python Badge](https://img.shields.io/badge/Python-100000.svg?style=for-the-badge&logo=python&logoColor=darkgreen)
+![JN Badge](https://img.shields.io/badge/Jupyter-100000.svg?&style=for-the-badge&logo=Jupyter&logoColor=whiten)
 
-![Conda Badge](https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=darkgreen=plastic)
+![Conda Badge](https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=darkgreen)
