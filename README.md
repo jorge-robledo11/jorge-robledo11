@@ -7,11 +7,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 * I like challenges and I try to find the best version of me 👊🏻
 * I like listening to music 🎧 and training 🏃🏻‍♂️
 
-<div>
-  <p style = 'text-align:right;'>
-    src="https://www.youtube.com">
-  </p>
-</div>
+<iframe src="https://giphy.com/embed/IcZhFmufozDCij3p22" width="480" height="415" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cpu-circuit-board-circuitboard-IcZhFmufozDCij3p22">via GIPHY</a></p>
 
 ### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
