@@ -20,5 +20,5 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ---
 ### Tools & Others
-![Excel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=excel&logoColor=white)
-![PowerBI Badge](https://img.shields.io/badge/PowerBI-217346?style=for-the-badge&logo=powerbi&logoColor=white)
+![excel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=excel&logoColor=white)
+![PowerBI Badge](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
