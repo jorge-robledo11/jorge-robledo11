@@ -33,8 +33,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ![Selenium Badge](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![apachespark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
-![Snake animation](https://github.com/jorge-robledo11/jorgerobledo11/blob/output/github-contribution-grid-snake.svg)
-
 ---
 ### Software
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -48,3 +46,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ### Certifications
 [![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/user/jorge-robledo-12)
 [![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
+
+<div>
+  ![Snake animation](https://github.com/jorge-robledo11/blob/output/github-contribution-grid-snake.svg)
+</div>
