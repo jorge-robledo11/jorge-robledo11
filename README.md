@@ -2,10 +2,10 @@
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ### About me 👋🏻
-- I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
-- I'm a self-taught ✍🏻 and a videogame lover 🎮👾
-- I like challenges and I try to find the best version of me 👊🏻
-- I like listening to music 🎧 and training 🏃🏻‍♂️
+▫ I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
+▫ I'm a self-taught ✍🏻 and a videogame lover 🎮👾
+▫ I like challenges and I try to find the best version of me 👊🏻
+▫ I like listening to music 🎧 and training 🏃🏻‍♂️
 
 ### Contact Information
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
