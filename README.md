@@ -37,5 +37,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ---
 ### Certifications
-![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white/embedding?link=https://www.udemy.com/user/jorge-robledo-12/)
+![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
 ![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)
+[![Star on GitHub](https://img.shields.io/badge/GitHub-Star-blue?logo=github)](https://github.com/badges/shields)
