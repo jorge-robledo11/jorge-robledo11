@@ -7,6 +7,9 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 - I like challenges and I try to find the best version of me 👊🏻
 - I like listening to music 🎧 and training 🏃🏻‍♂️
 
+### Contact
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-A435F0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
+
 ---
 ### Programming & Markup
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
@@ -29,6 +32,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ---
 ### Software
+![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Microsoft Badge](https://img.shields.io/badge/Microsoft-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)
 ![visualstudiocode Badge](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![microsoftsqlserver Badge](https://img.shields.io/badge/SQL_Server-CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
