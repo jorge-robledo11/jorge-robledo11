@@ -10,7 +10,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ### Languages & Frameworks
 ![Python Badge](https://img.shields.io/badge/Python-100000.svg?style=for-the-badge&logo=python&logoColor=3776AB)
-![microsoftsqlserver Badge](https://img.shields.io/badge/MSSQL-100000.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=3776AB)
+![microsoftsqlserver Badge](https://img.shields.io/badge/MsSQL-100000.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=CC2927)
 ![JN Badge](https://img.shields.io/badge/Jupyter-100000.svg?&style=for-the-badge&logo=Jupyter&logoColor=whiten)
 
 ![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
