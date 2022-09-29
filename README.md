@@ -2,7 +2,7 @@
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
 ### About me 👋🏻
-- I'm an Economist 👨🏻‍💼💼 and Data Scientist at [Platzi](https://platzi.com/p/robledo.1337/) 👨🏻‍💻 
+- I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
 - I'm a self-taught ✍🏻 and a videogame lover 🎮👾
 - I like challenges and I try to find the best version of me 👊🏻
 - I like listening to music 🎧 and training 🏃🏻‍♂️
@@ -38,4 +38,4 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ---
 ### Certifications
 [![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/user/jorge-robledo-12)
-![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)
+[![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
