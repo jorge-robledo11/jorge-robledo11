@@ -10,6 +10,8 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ### Contact Information
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
 [![Outlook Badge](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](https://postimg.cc/CBz2XdNH)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://postimg.cc/94z1FK7c)
+[![Discord Badge](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://postimg.cc/sMf1SRKC)
 
 ---
 ### Programming & Markup
