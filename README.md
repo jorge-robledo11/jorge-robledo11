@@ -1,13 +1,6 @@
 ### Hey there! 😸 
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
-{
-  name: "Jorge",
-  lastname: "Robledo",
-  code: [Javascript, Typescript, HTML, CSS, Python],
-  tools: [React, Redux, Node, Styled-Components, Docker], 
-}
-
 ### About me 👋🏻
 - I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
 - I'm a self-taught ✍🏻 and a videogame lover 🎮👾
@@ -39,6 +32,8 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ![Keras Badge](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Selenium Badge](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![apachespark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+
+![Snake animation](https://github.com/jorge-robledo11/jorgerobledo11/blob/output/github-contribution-grid-snake.svg)
 
 ---
 ### Software
