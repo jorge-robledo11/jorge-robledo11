@@ -11,5 +11,5 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ### Languages & Frameworks
 ![Python Badge](https://img.shields.io/badge/Python-100000?style=for-the-badge&logo=python&logoColor=darkgreen)
 ![JN Badge](https://img.shields.io/badge/Jupyter-100000.svg?&style=for-the-badge&logo=Jupyter&logoColor=whiten)
-![Scrapy Badge](https://img.shields.io/badge/Scrapy-100000?style=for-the-badge&logo=Scrapy&logoColor=Yellow)
+![Scrapy Badge](https://img.shields.io/badge/Scrapy-100000?style=for-the-badge&logo=scrapy&logoColor=white)
 
