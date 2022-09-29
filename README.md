@@ -1,6 +1,13 @@
 ### Hey there! 😸 
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
+{
+  name: "Jorge",
+  lastname: "Robledo",
+  code: [Javascript, Typescript, HTML, CSS, Python],
+  tools: [React, Redux, Node, Styled-Components, Docker], 
+}
+
 ### About me 👋🏻
 - I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
 - I'm a self-taught ✍🏻 and a videogame lover 🎮👾
