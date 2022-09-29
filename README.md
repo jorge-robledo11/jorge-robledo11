@@ -1,27 +1,27 @@
-### Hey there! 😸 
+### **Hey there!** 😸 
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
-### About me 👋🏻
-▫ I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
-▫ I'm a self-taught ✍🏻 and a videogame lover 🎮👾
-▫ I like challenges and I try to find the best version of me 👊🏻
-▫ I like listening to music 🎧 and training 🏃🏻‍♂️
+### **About me** 👋🏻
+* I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
+* I'm a self-taught ✍🏻 and a videogame lover 🎮👾
+* I like challenges and I try to find the best version of me 👊🏻
+* I like listening to music 🎧 and training 🏃🏻‍♂️
 
-### Contact Information
+### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
 [![Discord Badge](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://postimg.cc/sMf1SRKC)
 [![Outlook Badge](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](https://postimg.cc/CBz2XdNH)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://postimg.cc/94z1FK7c)
 
 ---
-### Programming & Markup
+### **Programming & Markup**
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![latex Badge](https://img.shields.io/badge/LaTeX-008080.svg?&style=for-the-badge&logo=latex&logoColor=white)
 
 ---
-### Frameworks & Libraries
+### **Frameworks & Libraries**
 ![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -34,7 +34,7 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ![apachespark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
-### Software
+### **Software**
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Microsoft Badge](https://img.shields.io/badge/Microsoft-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)
 ![visualstudiocode Badge](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -43,7 +43,6 @@ My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 ![PowerBI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
 
 ---
-### Certifications
+### **Certifications**
 [![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)](https://www.udemy.com/user/jorge-robledo-12)
 [![Platzo Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
-
