@@ -1,4 +1,4 @@
-![carbon]
+![carbon](https://github.com/jorge-robledo11/jorge-robledo11/blob/main/Profile.png)
 
 ### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
