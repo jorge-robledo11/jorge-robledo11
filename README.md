@@ -1,5 +1,5 @@
 ### **Hey there!** 😸 
-My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
+My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ### **About me** 👋🏻
 * I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
