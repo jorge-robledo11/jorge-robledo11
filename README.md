@@ -1,9 +1,7 @@
 ### **Hey there!** 😸 
 My name is **Jorge Robledo**, currently reside in Barranquilla, Colombia
 
-<div>
-  ![carbon](https://github.com/jorge-robledo11/jorge-robledo11/blob/main/GitHub_profile.png)
-</div>
+![carbon](https://github.com/jorge-robledo11/jorge-robledo11/blob/main/GitHub_profile.png)
 
 ### **About me** 👋🏻
 * I'm an Economist 👨🏻‍💼💼 and Data Scientist enthusiast 👨🏻‍💻 
