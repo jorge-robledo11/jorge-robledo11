@@ -41,10 +41,12 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL Server Badge](https://img.shields.io/badge/SQL_Server-CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
 ![Excel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power BI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
+
+---
+### **Cloud**
+![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ---
 ### **Certifications**
