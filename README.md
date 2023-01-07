@@ -46,9 +46,10 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ---
 ### **Cloud**
 ![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
 
 ---
 ### **Certifications**
-[![Credly Badge](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
 ![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
+[![Credly Badge](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
 [![Platzi Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
