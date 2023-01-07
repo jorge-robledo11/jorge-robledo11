@@ -49,6 +49,6 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ---
 ### **Certifications**
-[![Microsoft Badge](https://img.shields.io/badge/Microsoft-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
+[![Credly Badge](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
 ![Udemy Badge](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
 [![Platzi Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
