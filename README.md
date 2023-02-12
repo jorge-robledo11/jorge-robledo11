@@ -21,8 +21,6 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ---
 ### **Frameworks & Libraries**
-![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
-![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scipy Badge](https://img.shields.io/badge/Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
@@ -36,6 +34,8 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ---
 ### **Softwares & Tools**
+![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
+![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Heroku Badge](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
