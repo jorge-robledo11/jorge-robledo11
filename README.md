@@ -35,7 +35,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ---
 ### **Softwares & Development Tools**
-![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
+![Conda Badge](https://img.shields.io/badge/Conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -46,7 +46,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![SQL Server Badge](https://img.shields.io/badge/SQL_Server-CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Excel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power BI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
-![Parquet Badge](https://img.shields.io/badge/json-50ABF1.svg?&style=for-the-badge&logo=apacheparquet&logoColor=white)
+![Parquet Badge](https://img.shields.io/badge/Parquet-50ABF1.svg?&style=for-the-badge&logo=apacheparquet&logoColor=white)
 
 ---
 ### **Cloud Computing**
