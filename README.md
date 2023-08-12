@@ -34,7 +34,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Apache Spark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
-### **Softwares & Tools**
+### **Softwares & Development Tools**
 ![Conda Badge](https://img.shields.io/badge/conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -48,7 +48,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Power BI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
 
 ---
-### **Cloud**
+### **Cloud Computing**
 ![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![JSON Badge](https://img.shields.io/badge/json-000000.svg?&style=for-the-badge&logo=json&logoColor=white)
