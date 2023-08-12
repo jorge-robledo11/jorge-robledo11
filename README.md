@@ -48,6 +48,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ### **Cloud**
 ![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![JSON Badge](https://img.shields.io/badge/json-000000.svg?&style=for-the-badge&logo=json&logoColor=white)
 ![.ENV Badge](https://img.shields.io/badge/.env-ECD53F.svg?&style=for-the-badge&logo=dotenv&logoColor=white)
 
 ---
