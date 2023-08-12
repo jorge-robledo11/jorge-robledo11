@@ -31,7 +31,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Plotly Badge](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![FastAPI Badge](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Selenium Badge](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Apache Spark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Spark Badge](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
 ### **Softwares & Development Tools**
@@ -46,6 +46,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![SQL Server Badge](https://img.shields.io/badge/SQL_Server-CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Excel Badge](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Power BI Badge](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white)
+![Parquet Badge](https://img.shields.io/badge/json-50ABF1.svg?&style=for-the-badge&logo=apacheparquet&logoColor=white)
 
 ---
 ### **Cloud Computing**
