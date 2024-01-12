@@ -38,7 +38,6 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ---
 ### **Softwares & Development Tools**
 ![Conda Badge](https://img.shields.io/badge/Conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
-![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -54,10 +53,11 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![JSON Badge](https://img.shields.io/badge/json-000000.svg?&style=for-the-badge&logo=json&logoColor=white)
 
 ---
-### **Cloud Computing**
-![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+### **Computing**
+![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
+![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ---
 ### **Certifications**
