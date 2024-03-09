@@ -15,7 +15,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ---
 ### **Programming & Markup**
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Python Badge](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&color=212121&logoColor=ffd43b)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=ffd43b&color=212121) ![Badge](https://img.shields.io/badge/-3776AB-ffd43b?style=for-the-badge&color=212121)
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080.svg?&style=for-the-badge&logo=latex&logoColor=white)
