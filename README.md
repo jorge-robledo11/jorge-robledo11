@@ -13,7 +13,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 [![Discord Badge](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4gsqa6Ups7)
 
 ---
-### **Programming & Markup**
+### **Programming Languages & Markup**
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
@@ -35,7 +35,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Spark Badge](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
-### **Best tools for software development**
+### **Best Tools for Software Development**
 ![Conda Badge](https://img.shields.io/badge/Conda-44A833.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Poetry Badge](https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)
