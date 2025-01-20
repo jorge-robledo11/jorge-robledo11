@@ -21,6 +21,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 
 ---
 ### **Frameworks & Libraries**
+![Polars Badge](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scipy Badge](https://img.shields.io/badge/Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
