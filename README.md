@@ -47,7 +47,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![GitHub Copilot Badge](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
 ![.ENV Badge](https://img.shields.io/badge/.env-ECD53F.svg?&style=for-the-badge&logo=dotenv&logoColor=white)
 ![Visual Studio Code Badge](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Linux Mint Badge](https://img.shields.io/badge/Linux-Mint-86BE43?style=for-the-badge&logo=linux-mint&logoColor=white)
+![Linux Mint Badge](https://img.shields.io/badge/Linux_Mint-86BE43?style=for-the-badge&logo=linux-mint&logoColor=white)
 ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
