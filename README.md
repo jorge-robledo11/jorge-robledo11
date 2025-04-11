@@ -41,7 +41,7 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ---
 ### **Best Tools for Software Development**
 ![Poetry Badge](https://img.shields.io/badge/Poetry-60A5FA?style=for-the-badge&logo=poetry&logoColor=white)
-![Pre - commit Badge](https://img.shields.io/badge/Pre_commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
+![Pre-commit Badge](https://img.shields.io/badge/Pre_commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
