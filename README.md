@@ -61,7 +61,6 @@ My name is **Jorge Robledo**, currently reside at Barranquilla, Colombia
 ![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
 ![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Microsoft Azure Badge](https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ---
 ### **Certifications**
