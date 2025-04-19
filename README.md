@@ -1,10 +1,6 @@
 ### **Hey there!** 😸 
 My name is Jorge Robledo, an Economist turned Data Scientist based in Barranquilla, Colombia.
 
-<div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="480"/>
-</div>
-
 ### **About me** 👋🏻
 I thrive at the intersection of data and decision-making. As a self-taught Data Scientist with an Economics background, I combine analytical rigor with creative problem-solving to extract insights and drive impact.
   - 🎓 Economist & Data Scientist: Strong foundation in economic modeling and advanced skills in Python-based data tools.
@@ -12,6 +8,10 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
   - 🎮 Gamer at Heart: Passionate about video games; I apply strategic thinking from gaming to tackle complex data challenges.
   - 📈 Results-Driven: I love turning raw data into actionable insights and improving processes end-to-end.
   - 🎧 Music & Fitness Enthusiast: Fuel my productivity with curated playlists and regular runs, keeping mind and body sharp.
+
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="480"/>
+</div>
 
 ### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
