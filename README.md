@@ -9,6 +9,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
   - 📈 Results-Driven: I love turning raw data into actionable insights and improving processes end-to-end.
   - 🎧 Music & Fitness Enthusiast: Fuel my productivity with curated playlists and regular runs, keeping mind and body sharp.
 
+---
 ### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
 [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/robledo1337)
