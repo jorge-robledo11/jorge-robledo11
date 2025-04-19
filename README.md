@@ -3,11 +3,11 @@ My name is Jorge Robledo, an Economist turned Data Scientist based in Barranquil
 
 ### **About me** 👋🏻
 I thrive at the intersection of data and decision-making. As a self-taught Data Scientist with an Economics background, I combine analytical rigor with creative problem-solving to extract insights and drive impact.
-🎓 Economist & Data Scientist: Strong foundation in economic modeling and advanced skills in Python-based data tools.
-🚀 Self-Starter: Continuously learn new technologies and frameworks to stay ahead—whether it’s building a predictive model or optimizing data pipelines.
-🎮 Gamer at Heart: Passionate about video games; I apply strategic thinking from gaming to tackle complex data challenges.
-📈 Results-Driven: I love turning raw data into actionable insights and improving processes end-to-end.
-🎧 Music & Fitness Enthusiast: Fuel my productivity with curated playlists and regular runs, keeping mind and body sharp.
+  🎓 Economist & Data Scientist: Strong foundation in economic modeling and advanced skills in Python-based data tools.
+  🚀 Self-Starter: Continuously learn new technologies and frameworks to stay ahead—whether it’s building a predictive model or optimizing data pipelines.
+  🎮 Gamer at Heart: Passionate about video games; I apply strategic thinking from gaming to tackle complex data challenges.
+  📈 Results-Driven: I love turning raw data into actionable insights and improving processes end-to-end.
+  🎧 Music & Fitness Enthusiast: Fuel my productivity with curated playlists and regular runs, keeping mind and body sharp.
 
 ### **Contact Information**
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-robledo11)
