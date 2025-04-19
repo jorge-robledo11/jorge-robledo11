@@ -73,6 +73,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 [![Platzi Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
 
 ---
+Cuando todo tu código compila 🧑🏻‍💻
 <div align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="480"/>
 </div>
