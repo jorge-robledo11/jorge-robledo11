@@ -1,7 +1,9 @@
 ### **Hey there!** 😸 
 My name is Jorge Robledo, an Economist turned Data Scientist based in Barranquilla, Colombia.
 
-  ![Antonio Banderas GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif)
+<div align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="400"/>
+</div>
 
 ### **About me** 👋🏻
 I thrive at the intersection of data and decision-making. As a self-taught Data Scientist with an Economics background, I combine analytical rigor with creative problem-solving to extract insights and drive impact.
