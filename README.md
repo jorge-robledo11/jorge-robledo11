@@ -1,6 +1,8 @@
 ### **Hey there!** 😸 
 My name is Jorge Robledo, an Economist turned Data Scientist based in Barranquilla, Colombia.
 
+  ![Antonio Banderas GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif)
+
 ### **About me** 👋🏻
 I thrive at the intersection of data and decision-making. As a self-taught Data Scientist with an Economics background, I combine analytical rigor with creative problem-solving to extract insights and drive impact.
   - 🎓 Economist & Data Scientist: Strong foundation in economic modeling and advanced skills in Python-based data tools.
@@ -71,4 +73,3 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 [![Credly Badge](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
 [![Platzi Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
 
-![Antonio Banderas GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif)
