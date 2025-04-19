@@ -71,4 +71,4 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 [![Credly Badge](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
 [![Platzi Badge](https://img.shields.io/badge/Platzi-98CA3F?style=for-the-badge&logo=platzi&logoColor=white)](https://platzi.com/p/robledo.1337)
 
-![Antonio Banderas GIF]([https://media.giphy.com/media/aq6Thivv9V9lu/giphy.gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanhiNmpieXFpZm54MHluend5bXAxYWlrM29rdnRvZXJmMjE4dWh4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aq6Thivv9V9lu/giphy.gif))
+![Antonio Banderas GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanhiNmpieXFpZm54MHluend5bXAxYWlrM29rdnRvZXJmMjE4dWh4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aq6Thivv9V9lu/giphy.gif)
