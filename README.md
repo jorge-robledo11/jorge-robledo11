@@ -2,7 +2,7 @@
 My name is Jorge Robledo, an Economist turned Data Scientist based in Barranquilla, Colombia.
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="400"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5rZDNiemE2dWkxMnlwMXV6OHpheTdjbnNuZnNsNnlhNmU3MjIyOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDzM81OYrNjJC/giphy.gif" alt="Antonio Banderas GIF" width="480"/>
 </div>
 
 ### **About me** 👋🏻
