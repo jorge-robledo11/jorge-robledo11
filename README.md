@@ -20,6 +20,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Mermaid Badge](https://img.shields.io/badge/Mermaid-FF3670.svg?style=for-the-badge&logo=mermaid&logoColor=white)
 ![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080.svg?&style=for-the-badge&logo=latex&logoColor=white)
 
 ---
