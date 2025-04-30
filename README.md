@@ -50,6 +50,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ### 🔁 **DataOps**
 ![Polars Badge](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 ![Spark Badge](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Dask Badge](https://img.shields.io/badge/Dask-FC6E6B?style=for-the-badge&logo=dask&logoColor=white)
 
 ---
 ### 🤖 **Machine Learning**
