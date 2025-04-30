@@ -37,19 +37,23 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![.ENV Badge](https://img.shields.io/badge/.env-ECD53F.svg?&style=for-the-badge&logo=dotenv&logoColor=white)
 ![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
 ![YAML Badge](https://img.shields.io/badge/yaml-CB171E.svg?&style=for-the-badge&logo=yaml&logoColor=white)
+![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
 
 ---
-### 🏗️ **DataOps**
-![Polars Badge](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
+### 📊 **Analytics**
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scipy Badge](https://img.shields.io/badge/Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Plotly Badge](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+---
+### 🔁 **DataOps**
+![Polars Badge](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
 ![Spark Badge](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
 ### 🤖 **Machine Learning**
 ![Scikit-learn Badge](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scipy Badge](https://img.shields.io/badge/Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-![Plotly Badge](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 ---
 ### 🧠 **Deep Learning**
@@ -83,7 +87,6 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ### ☁️ **Cloud & IaC**
 ![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
-![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
 ![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
 ---
