@@ -43,10 +43,11 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 
 ---
 ### **Best Tools for Software Development**
+![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![UV Badge](https://img.shields.io/badge/UV-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
 ![Ruff Badge](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=white)
 ![Pre-commit Badge](https://img.shields.io/badge/Pre_commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
-![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
+![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
