@@ -49,6 +49,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
 ![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitLab Badge](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![GitHub Actions Badge](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![.ENV Badge](https://img.shields.io/badge/.env-ECD53F.svg?&style=for-the-badge&logo=dotenv&logoColor=white)
 ![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
