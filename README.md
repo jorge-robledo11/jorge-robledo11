@@ -34,7 +34,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![Ruff Badge](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=white)
 ![Pre-commit Badge](https://img.shields.io/badge/Pre_commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
 ![Linux Badge](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
-![Shell Scripting Badge](https://img.shields.io/badge/Shell_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Bash Badge](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Warp Badge](https://img.shields.io/badge/Warp-01A4FF?style=for-the-badge&logo=warp&logoColor=white)
 ![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
 ![YAML Badge](https://img.shields.io/badge/yaml-CB171E.svg?&style=for-the-badge&logo=yaml&logoColor=white)
