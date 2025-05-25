@@ -18,6 +18,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ---
 ### 🐍 **Programming Languages**
 ![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Rust Badge](https://img.shields.io/badge/Rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 ---
 ### ✍️ **Markup Languages**
