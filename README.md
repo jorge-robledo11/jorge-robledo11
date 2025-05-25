@@ -21,11 +21,12 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![Rust Badge](https://img.shields.io/badge/Rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 ---
-### ✍️ **Markup Languages**
+### ✍🏻 **Markup Languages & Notes**
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![Mermaid Badge](https://img.shields.io/badge/Mermaid-FF3670.svg?style=for-the-badge&logo=mermaid&logoColor=white)
 ![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080.svg?&style=for-the-badge&logo=latex&logoColor=white)
+![Obsidian Badge](https://img.shields.io/badge/Obsidian-7C3AED.svg?&style=for-the-badge&logo=obsidian&logoColor=white)
 
 ---
 ### 🛠️ **Development Tools**
@@ -39,10 +40,6 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
 ![YAML Badge](https://img.shields.io/badge/yaml-CB171E.svg?&style=for-the-badge&logo=yaml&logoColor=white)
 ![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
-![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?&style=for-the-badge&logo=perplexity&logoColor=white)
-![OpenAI Badge](https://img.shields.io/badge/OpenAI-412991.svg?&style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic Badge](https://img.shields.io/badge/Anthropic-191919.svg?&style=for-the-badge&logo=anthropic&logoColor=white)
-![Goole Gemini Badge](https://img.shields.io/badge/Google_Gemini-8E75B2.svg?&style=for-the-badge&logo=googlegemini&logoColor=white)
 
 ---
 ### 📊 **Analytics**
@@ -95,6 +92,13 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
 ![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+
+---
+### 🤖 **Artificial Intelligence**
+![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?&style=for-the-badge&logo=perplexity&logoColor=white)
+![OpenAI Badge](https://img.shields.io/badge/OpenAI-412991.svg?&style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic Badge](https://img.shields.io/badge/Anthropic-191919.svg?&style=for-the-badge&logo=anthropic&logoColor=white)
+![Goole Gemini Badge](https://img.shields.io/badge/Google_Gemini-8E75B2.svg?&style=for-the-badge&logo=googlegemini&logoColor=white)
 
 ---
 ### 🎓 **Certifications**
