@@ -39,6 +39,8 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
 ![YAML Badge](https://img.shields.io/badge/yaml-CB171E.svg?&style=for-the-badge&logo=yaml&logoColor=white)
 ![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
+![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?&style=for-the-badge&logo=perplexity&logoColor=white)
+![OpenAI Badge](https://img.shields.io/badge/OpenAI-412991.svg?&style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 ### 📊 **Analytics**
