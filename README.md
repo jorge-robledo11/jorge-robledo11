@@ -86,6 +86,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ### 🛢️ **Databases**
 ![PostgreSQL Badge](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis Badge](https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 ### ☁️ **Cloud & IaC**
