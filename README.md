@@ -87,6 +87,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis Badge](https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=redis&logoColor=white)
 
+---
 ### 🔍 **Monitoring**
 ![Prometheus Badge](https://img.shields.io/badge/Prometheus-E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana Badge](https://img.shields.io/badge/Grafana-F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
