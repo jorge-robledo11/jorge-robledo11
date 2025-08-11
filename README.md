@@ -62,7 +62,7 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ### 🧠 **Deep Learning**
 ![Pytorch Badge](https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace Badge](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=hugging-face&logoColor=white)
-![LangGraph Badge](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![LangChain Badge](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 ---
 ### 🔄 **MLOps**
