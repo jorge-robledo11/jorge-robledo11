@@ -25,42 +25,42 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Markdown Badge](https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![Mermaid Badge](https://img.shields.io/badge/Mermaid-FF3670.svg?style=for-the-badge&logo=mermaid&logoColor=white)
-![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080.svg?&style=for-the-badge&logo=latex&logoColor=white)
+![LaTeX Badge](https://img.shields.io/badge/LaTeX-008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![SVG Badge](https://img.shields.io/badge/SVG-FFB13B.svg?style=for-the-badge&logo=svg&logoColor=white)
 
 ---
 ### 🛠️ **Development Tools**
-![JN Badge](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-![UV Badge](https://img.shields.io/badge/UV-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
+![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![uv Badge](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
 ![Ruff Badge](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=white)
-![Pre-commit Badge](https://img.shields.io/badge/Pre_commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
+![Pre-commit Badge](https://img.shields.io/badge/Pre--commit-FAB040?style=for-the-badge&logo=pre-commit&logoColor=white)
 ![Linux Badge](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
 ![Bash Badge](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Warp Badge](https://img.shields.io/badge/Warp-01A4FF?style=for-the-badge&logo=warp&logoColor=white)
-![TOML Badge](https://img.shields.io/badge/toml-9C4121.svg?&style=for-the-badge&logo=toml&logoColor=white)
-![YAML Badge](https://img.shields.io/badge/yaml-CB171E.svg?&style=for-the-badge&logo=yaml&logoColor=white)
-![Nvidia Badge](https://img.shields.io/badge/Nvidia-76B900.svg?&style=for-the-badge&logo=nvidia&logoColor=white)
+![TOML Badge](https://img.shields.io/badge/TOML-9C4121.svg?style=for-the-badge&logo=toml&logoColor=white)
+![YAML Badge](https://img.shields.io/badge/YAML-CB171E.svg?style=for-the-badge&logo=yaml&logoColor=white)
+![NVIDIA Badge](https://img.shields.io/badge/NVIDIA-76B900.svg?style=for-the-badge&logo=nvidia&logoColor=white)
 
 ---
 ### 📊 **Analytics**
 ![Pandas Badge](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Numpy Badge](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scipy Badge](https://img.shields.io/badge/Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![NumPy Badge](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy Badge](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Plotly Badge](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 ---
 ### 🔁 **DataOps**
 ![Polars Badge](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white)
-![Spark Badge](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Apache Spark Badge](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 
 ---
 ### 🤖 **Machine Learning**
-![Scikit-learn Badge](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Scikit-learn Badge](https://img.shields.io/badge/Scikit_learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
 ---
 ### 🧠 **Deep Learning**
-![Pytorch Badge](https://img.shields.io/badge/Pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace Badge](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=hugging-face&logoColor=white)
+![PyTorch Badge](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face Badge](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain Badge](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 ---
@@ -91,17 +91,17 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 
 ---
 ### ☁️ **Cloud & IaC**
-![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Amazon Web Services Badge](https://img.shields.io/badge/Amazon_Web_Services-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure Badge](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Databricks Badge](https://img.shields.io/badge/Databricks-FF3621.svg?style=for-the-badge&logo=databricks&logoColor=white)
 ![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
 ---
 ### 🤖 **Harness & AI**
-![Claude Badge](https://img.shields.io/badge/Claude-D97757.svg?&style=for-the-badge&logo=claude&logoColor=white)
-![Goole Gemini Badge](https://img.shields.io/badge/Google_Gemini-8E75B2.svg?&style=for-the-badge&logo=googlegemini&logoColor=white)
-![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?&style=for-the-badge&logo=perplexity&logoColor=white)
-![Open Code Badge](https://img.shields.io/badge/OpenCode-000000.svg?&style=for-the-badge)
+![Claude Badge](https://img.shields.io/badge/Claude-D97757.svg?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini Badge](https://img.shields.io/badge/Google_Gemini-8E75B2.svg?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?style=for-the-badge&logo=perplexity&logoColor=white)
+![OpenCode Badge](https://img.shields.io/badge/OpenCode-000000.svg?style=for-the-badge)
 
 
 ---
