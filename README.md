@@ -97,10 +97,12 @@ I thrive at the intersection of data and decision-making. As a self-taught Data 
 ![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
 ---
-### 🤖 **Artificial Intelligence**
+### 🤖 **Harness & AI**
 ![Claude Badge](https://img.shields.io/badge/Claude-D97757.svg?&style=for-the-badge&logo=claude&logoColor=white)
 ![Goole Gemini Badge](https://img.shields.io/badge/Google_Gemini-8E75B2.svg?&style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Perplexity Badge](https://img.shields.io/badge/Perplexity-1FB8CD.svg?&style=for-the-badge&logo=perplexity&logoColor=white)
+![OpenCode Badge](https://img.shields.io/badge/OpenCode-000000.svg?&style=for-the-badge&logo=opencode&logoColor=white)
+
 
 ---
 ### 🎓 **Certifications**
