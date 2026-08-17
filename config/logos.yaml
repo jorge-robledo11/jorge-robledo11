@@ -191,8 +191,7 @@ logos:
   latex:
     name: LaTeX
     file: latex.svg
-    source: https://images.ctfassets.net/nrgyaltdicpt/451Wbu94Q1X3M5QIk74QLL/08e42061e965fb152a329ded74cdc3ce/overleaf-o-logo-primary.svg
-    source_type: official
+    source_type: manual
     badge:
       enabled: true
 

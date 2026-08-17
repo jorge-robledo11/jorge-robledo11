@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="OpenCode">
   <title>OpenCode</title>
-  <path fill="#000000"
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        stroke="#B8BEC8"
-        stroke-width="1.2"
-        stroke-linejoin="round"
-        paint-order="stroke fill"
+  <path fill="#8B949E" fill-rule="evenodd" clip-rule="evenodd"
         d="M22 24H2V0h20zM17 4.8H7v14.4h10z"/>
 </svg>
