@@ -10,8 +10,7 @@ logos:
   aws:
     name: Amazon Web Services
     file: aws.svg
-    source: https://api.iconify.design/logos/aws.svg
-    source_type: iconify
+    source_type: manual
     badge:
       enabled: true
 
@@ -169,8 +168,7 @@ logos:
   jupyter:
     name: Jupyter
     file: jupyter.svg
-    source: https://api.iconify.design/logos/jupyter.svg
-    source_type: iconify
+    source_type: manual
     badge:
       enabled: true
 
