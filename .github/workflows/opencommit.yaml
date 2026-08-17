@@ -6,6 +6,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: opencommit-main
+  cancel-in-progress: false
+
 jobs:
   readme:
     name: Commit README
@@ -20,10 +24,10 @@ jobs:
           fetch-depth: 0
 
       - name: Load OpenCommit config
-        run: cat .github/opencommit.env >> "$GITHUB_ENV"
+        run: cat .github/opencomit.env >> "$GITHUB_ENV"
 
       - name: Check environment
-        run: .github/scripts/check-environment.sh
+        run: bash .github/scripts/check-environment.sh
 
       - name: Configure Git
         run: |
@@ -32,7 +36,7 @@ jobs:
             "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Update README
-        run: .github/scripts/update-readme.sh
+        run: bash .github/scripts/update-readme.sh
 
       - name: Commit with OpenCommit
         run: oco --yes --no-verify
@@ -45,4 +49,6 @@ jobs:
           echo
 
       - name: Push main
-        run: git push origin HEAD:main
+        run: |
+          git pull --rebase origin main
+          git push origin HEAD:main

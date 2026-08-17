@@ -68,7 +68,7 @@ repos:
       # Tests rápidos relacionados con el pipeline de badges.
       - id: badge-tests
         name: validar pipeline de badges
-        entry: just test-badges
+        entry: just test
         language: system
         pass_filenames: false
         files: '^(config/logos\.yaml|assets/logos/.*\.svg|assets/badges/.*\.svg|scripts/(build|download)_logos\.py|tests/test_(badges|download_logos)\.py)$'

@@ -27,17 +27,21 @@ FONT_SIZE = 11
 
 
 def badge_width(label: str, logo_mode: str = 'icon') -> int:
+	"""Return the badge width in pixels for the requested logo mode."""
 	if logo_mode == 'wordmark':
 		return LEFT_PAD + WORDMARK_WIDTH + RIGHT_PAD
 	return round(LEFT_PAD + LOGO_SIZE + LOGO_TEXT_GAP + len(label) * CHAR_W + RIGHT_PAD)
 
 
 def status_line(verb: str, name: str, note: str) -> str:
+	"""Format one status row for command-line output."""
 	return f'{verb:<9}{name:<24}{note}'
 
 
 @dataclass
 class BuildOutcome:
+	"""Track counters for one badge build run."""
+
 	built: int = 0
 	skipped: int = 0
 	manual: int = 0
@@ -45,6 +49,7 @@ class BuildOutcome:
 
 
 def needs_rebuild(badge: Path, logo: Path, config_mtime: float) -> bool:
+	"""Return whether a badge is older than any of its inputs."""
 	if not badge.is_file():
 		return True
 	try:
@@ -63,6 +68,7 @@ def build_badge_svg(
 	logo_b64: str,
 	logo_mode: str = 'icon',
 ) -> str:
+	"""Build one self-contained SVG badge."""
 	width = max(60, badge_width(label, logo_mode))
 	safe_label = escape(label, quote=True)
 	image_width = WORDMARK_WIDTH if logo_mode == 'wordmark' else LOGO_SIZE
@@ -92,6 +98,7 @@ def build_badge_svg(
 
 
 def atomic_write(path: Path, content: str) -> None:
+	"""Replace a badge file atomically."""
 	tmp = path.with_suffix(path.suffix + '.tmp')
 	tmp.write_text(content, encoding='utf-8')
 	os.replace(tmp, path)
@@ -104,6 +111,7 @@ def process(
 	config_mtime: float,
 	force: bool,
 ) -> BuildOutcome:
+	"""Build enabled badges and return operation counters."""
 	outcome = BuildOutcome()
 
 	for entry in entries:
@@ -154,6 +162,7 @@ def process(
 
 
 def main(argv: list[str]) -> int:
+	"""Run the badge builder CLI and return its exit status."""
 	parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
 	parser.add_argument('--config', type=Path, default=Path('config/logos.yaml'))
 	parser.add_argument('--logo-dir', type=Path, default=Path('assets/logos'))

@@ -43,5 +43,4 @@ Thumbs.db
 
 *.xml
 .ignore
-.repomixignore
-*.env
+!/.github/opencomit.env

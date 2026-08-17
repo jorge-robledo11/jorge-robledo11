@@ -13,7 +13,10 @@ if str(SCRIPTS) not in sys.path:
 
 import download_logos  # noqa: E402
 
-VALID_SVG = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1"><path d="M0 0h1v1H0z"/></svg>'
+VALID_SVG = (
+	b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">'
+	b'<path d="M0 0h1v1H0z"/></svg>'
+)
 
 
 def entry(*, source_type: str = 'official') -> download_logos.LogoEntry:

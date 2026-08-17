@@ -39,6 +39,11 @@ def _hex_rgb(value: str) -> tuple[int, int, int]:
 	return tuple(int(value[i : i + 2], 16) for i in (0, 2, 4))
 
 
+def _is_background_pixel(pixels, background, x: int, y: int) -> bool:
+	r, g, b, a = pixels[x, y]
+	return a == 255 and (r, g, b) == background
+
+
 def _build_svg(entry) -> str:
 	logo = LOGO_DIR / entry.file
 	encoded = b64encode(logo.read_bytes()).decode('ascii')
@@ -94,7 +99,8 @@ class BadgeStructureTests(unittest.TestCase):
 			required = len(entry.badge_label.upper()) * TEXT_WIDTH_SAFETY_PX
 			if available < required:
 				failures.append(
-					f'{entry.key}: text slot {available:.1f}px < safe budget {required:.1f}px'
+					f'{entry.key}: text slot {available:.1f}px '
+					f'< safe budget {required:.1f}px'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))
@@ -277,8 +283,8 @@ class BadgeVisualSafetyTests(unittest.TestCase):
 
 			if axis_fill < MIN_LOGO_AXIS_FILL:
 				failures.append(
-					f'{entry.key}: logo fills only {axis_fill:.1%} of its smallest axis; '
-					'use an icon/symbol SVG instead of a wide wordmark'
+					f'{entry.key}: logo fills only {axis_fill:.1%} of its '
+					'smallest axis; use an icon/symbol SVG instead of a wide wordmark'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))
@@ -327,33 +333,36 @@ class BadgeVisualSafetyTests(unittest.TestCase):
 			background = _hex_rgb(entry.badge_background)
 			guard = EDGE_GUARD_PX * VISUAL_SCALE
 
-			def is_background(x: int, y: int) -> bool:
-				r, g, b, a = pixels[x, y]
-				return a == 255 and (r, g, b) == background
-
 			touched_edges: list[str] = []
 			if any(
-				not is_background(x, y) for x in range(guard) for y in range(height)
+				not _is_background_pixel(pixels, background, x, y)
+				for x in range(guard)
+				for y in range(height)
 			):
 				touched_edges.append('left')
 			if any(
-				not is_background(x, y)
+				not _is_background_pixel(pixels, background, x, y)
 				for x in range(width - guard, width)
 				for y in range(height)
 			):
 				touched_edges.append('right')
-			if any(not is_background(x, y) for y in range(guard) for x in range(width)):
+			if any(
+				not _is_background_pixel(pixels, background, x, y)
+				for y in range(guard)
+				for x in range(width)
+			):
 				touched_edges.append('top')
 			if any(
-				not is_background(x, y)
+				not _is_background_pixel(pixels, background, x, y)
 				for y in range(height - guard, height)
 				for x in range(width)
 			):
 				touched_edges.append('bottom')
 
 			if touched_edges:
+				edges = ', '.join(touched_edges)
 				failures.append(
-					f'{entry.key}: rendered content reaches {", ".join(touched_edges)} edge(s)'
+					f'{entry.key}: rendered content reaches {edges} edge(s)'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))

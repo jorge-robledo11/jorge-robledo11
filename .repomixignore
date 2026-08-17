@@ -1,0 +1,18 @@
+# Ignore everything at the repository root by default.
+/*
+
+# Keep source, tests and declarative configuration.
+!/.github/
+!/config/
+!/scripts/
+!/tests/
+
+# Keep the files that explain how the repository is built and validated.
+!/.gitignore
+!/.opencommitignore
+!/.repomixignore
+!/.pre-commit-config.yaml
+!/.python-version
+!/justfile
+!/pyproject.toml
+!/README.md

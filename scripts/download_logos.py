@@ -31,6 +31,8 @@ HEX_COLOR_RE = re.compile(r'^#[0-9A-Fa-f]{6}$')
 
 @dataclass(frozen=True)
 class LogoEntry:
+	"""Describe one logo and its badge configuration."""
+
 	key: str
 	name: str
 	file: str
@@ -44,6 +46,7 @@ class LogoEntry:
 
 
 def load_config(path: Path) -> list[LogoEntry]:
+	"""Load and validate logo entries from a YAML configuration file."""
 	data = yaml.safe_load(path.read_text(encoding='utf-8'))
 	logos = (data or {}).get('logos') or {}
 	if not isinstance(logos, dict):
@@ -56,6 +59,7 @@ def load_config(path: Path) -> list[LogoEntry]:
 
 
 def parse_entry(key: str, raw: dict) -> LogoEntry:
+	"""Validate one raw logo configuration entry."""
 	if not isinstance(raw, dict):
 		raise SystemExit(f'logos.{key}: entry must be a mapping')
 
@@ -68,8 +72,9 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 	if not file:
 		raise SystemExit(f"logos.{key}: 'file' is required")
 	if source_type not in SOURCE_TYPES:
+		allowed = sorted(SOURCE_TYPES)
 		raise SystemExit(
-			f'logos.{key}: source_type must be one of {sorted(SOURCE_TYPES)}, got {source_type!r}'
+			f'logos.{key}: source_type must be one of {allowed}, got {source_type!r}'
 		)
 
 	source = raw.get('source')
@@ -78,7 +83,8 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 	else:
 		if not source or not str(source).startswith(('http://', 'https://')):
 			raise SystemExit(
-				f"logos.{key}: 'source' must be an http(s) URL for source_type={source_type}"
+				f"logos.{key}: 'source' must be an http(s) URL for "
+				f'source_type={source_type}'
 			)
 		source = str(source)
 
@@ -122,6 +128,7 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 
 
 def is_valid_svg(path: Path) -> bool:
+	"""Return whether a path contains a non-HTML SVG document."""
 	try:
 		if not path.is_file() or path.stat().st_size == 0:
 			return False
@@ -136,6 +143,7 @@ def is_valid_svg(path: Path) -> bool:
 
 
 def fetch_bytes(url: str) -> bytes:
+	"""Download raw bytes from a URL using the configured timeout."""
 	request = urllib.request.Request(
 		url,
 		headers={'User-Agent': USER_AGENT, 'Accept': '*/*'},
@@ -145,23 +153,27 @@ def fetch_bytes(url: str) -> bytes:
 
 
 def looks_like_svg(data: bytes) -> bool:
+	"""Return whether downloaded bytes appear to contain SVG markup."""
 	head = data[:SVG_HEAD_BYTES].decode('utf-8', errors='ignore').lower()
 	return '<svg' in head and '<html' not in head and '<!doctype html' not in head
 
 
 def atomic_write(path: Path, data: bytes) -> None:
+	"""Replace a logo file atomically with downloaded bytes."""
 	tmp = path.with_suffix(path.suffix + '.tmp')
 	tmp.write_bytes(data)
 	os.replace(tmp, path)
 
 
 def status_line(verb: str, name: str, note: str) -> str:
+	"""Format one status row for command-line output."""
 	return f'{verb:<9}{name:<24}{note}'
 
 
 def process(
 	entries: Iterable[LogoEntry], logo_dir: Path, force: bool
 ) -> dict[str, int]:
+	"""Acquire logo assets and return operation counters."""
 	counts = {'downloaded': 0, 'skipped': 0, 'manual': 0, 'failed': 0}
 
 	for entry in entries:
@@ -204,6 +216,7 @@ def process(
 
 
 def print_summary(counts: dict[str, int]) -> None:
+	"""Print downloader operation counters."""
 	print()
 	print(f'Downloaded:     {counts["downloaded"]}')
 	print(f'Skipped:        {counts["skipped"]}')
@@ -212,6 +225,7 @@ def print_summary(counts: dict[str, int]) -> None:
 
 
 def main(argv: list[str]) -> int:
+	"""Run the logo downloader CLI and return its exit status."""
 	parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
 	parser.add_argument('--config', type=Path, default=Path('config/logos.yaml'))
 	parser.add_argument('--logo-dir', type=Path, default=Path('assets/logos'))
