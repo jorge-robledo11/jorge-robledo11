@@ -95,6 +95,7 @@ logos:
       label: Delta Lake
       background: "#100000"
       text_color: "#FFFFFF"
+      logo_mode: wordmark
       enabled: true
 
   discord:

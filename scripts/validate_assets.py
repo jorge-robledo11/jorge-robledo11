@@ -26,20 +26,12 @@ def _print_group(title: str, items: list[str]) -> None:
 
 def main() -> int:
 	"""Validate the complete configured logo-to-badge inventory."""
-	entries = [
-		entry
-		for entry in load_config(CONFIG)
-		if entry.badge_enabled
-	]
+	entries = [entry for entry in load_config(CONFIG) if entry.badge_enabled]
 
 	configured_files = [entry.file for entry in entries]
 	counts = Counter(configured_files)
 
-	duplicates = sorted(
-		name
-		for name, count in counts.items()
-		if count > 1
-	)
+	duplicates = sorted(name for name, count in counts.items() if count > 1)
 
 	missing_logos: list[str] = []
 	missing_badges: list[str] = []
@@ -78,15 +70,11 @@ def main() -> int:
 	expected_files = set(configured_files)
 
 	logo_files = (
-		{path.name for path in LOGO_DIR.glob('*.svg')}
-		if LOGO_DIR.is_dir()
-		else set()
+		{path.name for path in LOGO_DIR.glob('*.svg')} if LOGO_DIR.is_dir() else set()
 	)
 
 	badge_files = (
-		{path.name for path in BADGE_DIR.glob('*.svg')}
-		if BADGE_DIR.is_dir()
-		else set()
+		{path.name for path in BADGE_DIR.glob('*.svg')} if BADGE_DIR.is_dir() else set()
 	)
 
 	orphan_logos = sorted(logo_files - expected_files)
