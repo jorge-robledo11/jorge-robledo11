@@ -30,152 +30,25 @@ I build data and machine learning systems that turn raw information into reliabl
 
 ### 📫 **Contact Information**
 
-[![LinkedIn Badge](assets/badges/linkedin.svg)](https://www.linkedin.com/in/jorge-robledo11)
-[![Discord Badge](assets/badges/discord.svg)](https://discord.gg/4gsqa6Ups7)
+[LinkedIn](https://www.linkedin.com/in/jorge-robledo11) · [Discord](https://discord.gg/4gsqa6Ups7)
 
 ---
 
-### 🐍 **Programming Languages**
+### **Stack**
 
-![Python Badge](assets/badges/python.svg)
-![Rust Badge](assets/badges/rust.svg)
-
----
-
-### 📝 **Markup & Configuration**
-
-![HTML5 Badge](assets/badges/html5.svg)
-![Markdown Badge](assets/badges/markdown.svg)
-![Mermaid Badge](assets/badges/mermaid.svg)
-![UML Badge](assets/badges/uml.svg)
-![LaTeX Badge](assets/badges/latex.svg)
-![SVG Badge](assets/badges/svg.svg)
-![TOML Badge](assets/badges/toml.svg)
-![YAML Badge](assets/badges/yaml.svg)
-
----
-
-### 🛠️ **Developer Experience**
-
-![Jupyter Badge](assets/badges/jupyter.svg)
-![UV Badge](assets/badges/uv.svg)
-![Ruff Badge](assets/badges/ruff.svg)
-![Pre-commit Badge](assets/badges/precommit.svg)
-![Linux Badge](assets/badges/linux.svg)
-![Zsh Badge](assets/badges/zsh.svg)
-![Just Badge](assets/badges/just.svg)
-![Warp Badge](assets/badges/warp.svg)
-![Nvidia Badge](assets/badges/nvidia.svg)
-
----
-
-### 📊 **Data & Analytics**
-
-![Pandas Badge](assets/badges/pandas.svg)
-![NumPy Badge](assets/badges/numpy.svg)
-![SciPy Badge](assets/badges/scipy.svg)
-![Plotly Badge](assets/badges/plotly.svg)
-
----
-
-### ⚙️ **Data Engineering**
-
-![Polars Badge](assets/badges/polars.svg)
-![Apache Spark Badge](assets/badges/apache-spark.svg)
-
----
-
-### 🤖 **Machine Learning**
-
-![Scikit-learn Badge](assets/badges/scikit-learn.svg)
-
----
-
-### 🧠 **Deep Learning**
-
-![PyTorch Badge](assets/badges/pytorch.svg)
-![Hugging Face Badge](assets/badges/hugging-face.svg)
-
----
-
-### 🧠 **AI Engineering**
-
-![LangChain Badge](assets/badges/langchain.svg)
-![LangGraph Badge](assets/badges/langgraph.svg)
-![Ollama Badge](assets/badges/ollama.svg)
-
----
-
-### 🔄 **MLOps**
-
-![DVC Badge](assets/badges/dvc.svg)
-![MLflow Badge](assets/badges/mlflow.svg)
-
----
-
-### 🌐 **Backend & APIs**
-
-![FastAPI Badge](assets/badges/fastapi.svg)
-![Pydantic Badge](assets/badges/pydantic.svg)
-![SQLAlchemy Badge](assets/badges/sqlalchemy.svg)
-
----
-
-### 🛢️ **Databases**
-
-![PostgreSQL Badge](assets/badges/postgresql.svg)
-![MongoDB Badge](assets/badges/mongodb.svg)
-![Redis Badge](assets/badges/redis.svg)
-
----
-
-### 📦 **Containers & CI/CD**
-
-![Docker Badge](assets/badges/docker.svg)
-![GitHub Actions Badge](assets/badges/github-actions.svg)
-
----
-
-### 🌿 **Version Control**
-
-![Git Badge](assets/badges/git.svg)
-![GitHub Badge](assets/badges/github.svg)
-![Conventional Commits Badge](assets/badges/conventional-commits.svg)
-
----
-
-### 🔍 **Observability**
-
-![Prometheus Badge](assets/badges/prometheus.svg)
-![Grafana Badge](assets/badges/grafana.svg)
-
----
-
-### ☁️ **Cloud, Data Platforms & IaC**
-
-![Amazon Web Services Badge](assets/badges/aws.svg)
-![Azure Badge](assets/badges/azure.svg)
-![Databricks Badge](assets/badges/databricks.svg)
-![Delta Lake Badge](assets/badges/delta-lake.svg)
-![Terraform Badge](assets/badges/terraform.svg)
-
----
-
-### 🤖 **AI Tools & Assistants**
-
-![Claude Badge](assets/badges/claude.svg)
-![Google Gemini Badge](assets/badges/google-gemini.svg)
-![Perplexity Badge](assets/badges/perplexity.svg)
-![OpenCode Badge](assets/badges/opencode.svg)
+![Python](assets/badges/python.svg) ![Rust](assets/badges/rust.svg) ![HTML5](assets/badges/html5.svg) ![Markdown](assets/badges/markdown.svg) ![Mermaid](assets/badges/mermaid.svg) ![UML](assets/badges/uml.svg) ![LaTeX](assets/badges/latex.svg) ![SVG](assets/badges/svg.svg) ![TOML](assets/badges/toml.svg) ![YAML](assets/badges/yaml.svg)
+![Jupyter](assets/badges/jupyter.svg) ![uv](assets/badges/uv.svg) ![Ruff](assets/badges/ruff.svg) ![pre-commit](assets/badges/precommit.svg) ![Linux](assets/badges/linux.svg) ![Zsh](assets/badges/zsh.svg) ![Just](assets/badges/just.svg) ![Warp](assets/badges/warp.svg) ![NVIDIA](assets/badges/nvidia.svg)
+![Pandas](assets/badges/pandas.svg) ![NumPy](assets/badges/numpy.svg) ![SciPy](assets/badges/scipy.svg) ![Plotly](assets/badges/plotly.svg) ![Polars](assets/badges/polars.svg) ![Apache Spark](assets/badges/apache-spark.svg) ![scikit-learn](assets/badges/scikit-learn.svg) ![PyTorch](assets/badges/pytorch.svg) ![Hugging Face](assets/badges/hugging-face.svg)
+![LangChain](assets/badges/langchain.svg) ![LangGraph](assets/badges/langgraph.svg) ![Ollama](assets/badges/ollama.svg) ![DVC](assets/badges/dvc.svg) ![MLflow](assets/badges/mlflow.svg) ![FastAPI](assets/badges/fastapi.svg) ![Pydantic](assets/badges/pydantic.svg) ![SQLAlchemy](assets/badges/sqlalchemy.svg)
+![PostgreSQL](assets/badges/postgresql.svg) ![MongoDB](assets/badges/mongodb.svg) ![Redis](assets/badges/redis.svg) ![Docker](assets/badges/docker.svg) ![GitHub Actions](assets/badges/github-actions.svg) ![Git](assets/badges/git.svg) ![GitHub](assets/badges/github.svg) ![Conventional Commits](assets/badges/conventional-commits.svg)
+![Prometheus](assets/badges/prometheus.svg) ![Grafana](assets/badges/grafana.svg) ![AWS](assets/badges/aws.svg) ![Azure](assets/badges/azure.svg) ![Databricks](assets/badges/databricks.svg) ![Delta Lake](assets/badges/delta-lake.svg) ![Terraform](assets/badges/terraform.svg)
+![Claude](assets/badges/claude.svg) ![Google Gemini](assets/badges/google-gemini.svg) ![Perplexity](assets/badges/perplexity.svg) ![OpenCode](assets/badges/opencode.svg)
 
 ---
 
 ### 🎓 **Certifications**
 
-![Coursera Badge](assets/badges/coursera.svg)
-![Udemy Badge](assets/badges/udemy.svg)
-[![Credly Badge](assets/badges/credly.svg)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges)
-[![Platzi Badge](assets/badges/platzi.svg)](https://platzi.com/p/robledo.1337)
+Coursera · Udemy · [Credly](https://www.credly.com/users/jorge-robledo.8de15cb7/badges) · [Platzi](https://platzi.com/p/robledo.1337)
 
 ---
 

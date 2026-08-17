@@ -20,9 +20,11 @@ USER_AGENT = 'github-profile-assets/1.0'
 HTTP_TIMEOUT = 20
 SVG_HEAD_BYTES = 2048
 
-SOURCE_TYPES = frozenset({'official', 'github', 'iconify', 'devicon', 'manual'})
+SOURCE_TYPES = frozenset(
+	{'official', 'community', 'github', 'iconify', 'devicon', 'manual'}
+)
 LOGO_MODES = frozenset({'icon', 'wordmark'})
-HEX_COLOR_RE = re.compile(r'^#[0-9A-Fa-f]{6}$')
+BADGE_TONES = frozenset({'original', 'neutral'})
 
 AUTO_SIMPLE_ICON_SLUGS = {
 	'conventional-commits': 'conventionalcommits',
@@ -60,11 +62,9 @@ class LogoEntry:
 	file: str
 	source: str | None
 	source_type: str
-	badge_label: str
-	badge_background: str
-	badge_text_color: str
 	badge_enabled: bool
 	badge_logo_mode: str = 'icon'
+	badge_tone: str = 'original'
 
 
 def load_config(path: Path) -> list[LogoEntry]:
@@ -112,11 +112,9 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 	if not isinstance(badge, dict):
 		raise SystemExit(f'logos.{key}.badge: must be a mapping')
 
-	label = str(badge.get('label') or name).strip()
-	background = str(badge.get('background') or '#100000').strip()
-	text_color = str(badge.get('text_color') or '#FFFFFF').strip()
 	enabled = bool(badge.get('enabled', True))
 	logo_mode = str(badge.get('logo_mode') or 'icon').strip()
+	tone = str(badge.get('tone') or 'original').strip()
 
 	if logo_mode not in LOGO_MODES:
 		raise SystemExit(
@@ -124,14 +122,10 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 			f'{sorted(LOGO_MODES)}, got {logo_mode!r}'
 		)
 
-	if not HEX_COLOR_RE.fullmatch(background):
+	if tone not in BADGE_TONES:
 		raise SystemExit(
-			f'logos.{key}.badge.background: expected #RRGGBB, got {background!r}'
-		)
-
-	if not HEX_COLOR_RE.fullmatch(text_color):
-		raise SystemExit(
-			f'logos.{key}.badge.text_color: expected #RRGGBB, got {text_color!r}'
+			f'logos.{key}.badge.tone: expected one of '
+			f'{sorted(BADGE_TONES)}, got {tone!r}'
 		)
 
 	return LogoEntry(
@@ -140,11 +134,9 @@ def parse_entry(key: str, raw: dict) -> LogoEntry:
 		file=file,
 		source=source,
 		source_type=source_type,
-		badge_label=label,
-		badge_background=background,
-		badge_text_color=text_color,
 		badge_enabled=enabled,
 		badge_logo_mode=logo_mode,
+		badge_tone=tone,
 	)
 
 

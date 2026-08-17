@@ -5,9 +5,6 @@ logos:
     source: https://api.iconify.design/logos/apache-spark.svg
     source_type: iconify
     badge:
-      label: Apache Spark
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   aws:
@@ -16,9 +13,6 @@ logos:
     source: https://api.iconify.design/logos/aws.svg
     source_type: iconify
     badge:
-      label: Amazon Web Services
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   azure:
@@ -27,9 +21,6 @@ logos:
     source: https://api.iconify.design/logos/microsoft-azure.svg
     source_type: iconify
     badge:
-      label: Azure
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   claude:
@@ -38,9 +29,6 @@ logos:
     source: https://api.iconify.design/logos/claude.svg
     source_type: iconify
     badge:
-      label: Claude
-      background: "#100000"
-      text_color: "#FFFFFF"
       logo_mode: wordmark
       enabled: true
 
@@ -49,9 +37,6 @@ logos:
     file: conventional-commits.svg
     source_type: manual
     badge:
-      label: Conventional Commits
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   coursera:
@@ -60,9 +45,6 @@ logos:
     source: https://api.iconify.design/logos/coursera.svg
     source_type: iconify
     badge:
-      label: Coursera
-      background: "#100000"
-      text_color: "#FFFFFF"
       logo_mode: wordmark
       enabled: true
 
@@ -71,9 +53,6 @@ logos:
     file: credly.svg
     source_type: manual
     badge:
-      label: Credly
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   databricks:
@@ -82,9 +61,6 @@ logos:
     source: https://raw.githubusercontent.com/databricks/databricks-agent-skills/main/assets/databricks.svg
     source_type: official
     badge:
-      label: Databricks
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   delta-lake:
@@ -92,9 +68,6 @@ logos:
     file: delta-lake.svg
     source_type: manual
     badge:
-      label: Delta Lake
-      background: "#100000"
-      text_color: "#FFFFFF"
       logo_mode: wordmark
       enabled: true
 
@@ -104,9 +77,6 @@ logos:
     source: https://api.iconify.design/logos/discord-icon.svg
     source_type: iconify
     badge:
-      label: Discord
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   docker:
@@ -115,9 +85,6 @@ logos:
     source: https://api.iconify.design/logos/docker-icon.svg
     source_type: iconify
     badge:
-      label: Docker
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   dvc:
@@ -125,9 +92,6 @@ logos:
     file: dvc.svg
     source_type: manual
     badge:
-      label: DVC
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   fastapi:
@@ -136,9 +100,6 @@ logos:
     source: https://api.iconify.design/logos/fastapi-icon.svg
     source_type: iconify
     badge:
-      label: FastAPI
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   git:
@@ -147,9 +108,6 @@ logos:
     source: https://api.iconify.design/logos/git-icon.svg
     source_type: iconify
     badge:
-      label: Git
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   github:
@@ -158,9 +116,7 @@ logos:
     source: https://api.iconify.design/logos/github-icon.svg
     source_type: iconify
     badge:
-      label: GitHub
-      background: "#100000"
-      text_color: "#FFFFFF"
+      tone: neutral
       enabled: true
 
   github-actions:
@@ -169,9 +125,6 @@ logos:
     source: https://api.iconify.design/logos/github-actions.svg
     source_type: iconify
     badge:
-      label: GitHub Actions
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   google-gemini:
@@ -180,9 +133,6 @@ logos:
     source: https://api.iconify.design/logos/google-gemini.svg
     source_type: iconify
     badge:
-      label: Google Gemini
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   grafana:
@@ -191,9 +141,6 @@ logos:
     source: https://api.iconify.design/logos/grafana.svg
     source_type: iconify
     badge:
-      label: Grafana
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   html5:
@@ -202,9 +149,6 @@ logos:
     source: https://api.iconify.design/logos/html-5.svg
     source_type: iconify
     badge:
-      label: HTML5
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   hugging-face:
@@ -213,9 +157,6 @@ logos:
     source: https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg
     source_type: official
     badge:
-      label: Hugging Face
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   just:
@@ -223,9 +164,6 @@ logos:
     file: just.svg
     source_type: manual
     badge:
-      label: Just
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   jupyter:
@@ -234,9 +172,6 @@ logos:
     source: https://api.iconify.design/logos/jupyter.svg
     source_type: iconify
     badge:
-      label: Jupyter
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   langchain:
@@ -244,9 +179,6 @@ logos:
     file: langchain.svg
     source_type: manual
     badge:
-      label: LangChain
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   langgraph:
@@ -254,9 +186,6 @@ logos:
     file: langgraph.svg
     source_type: manual
     badge:
-      label: LangGraph
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   latex:
@@ -265,9 +194,6 @@ logos:
     source: https://api.iconify.design/devicon/latex.svg
     source_type: devicon
     badge:
-      label: LaTeX
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   linkedin:
@@ -275,9 +201,6 @@ logos:
     file: linkedin.svg
     source_type: manual
     badge:
-      label: LinkedIn
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   linux:
@@ -286,20 +209,14 @@ logos:
     source: https://api.iconify.design/devicon/linux.svg
     source_type: devicon
     badge:
-      label: Linux
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   markdown:
     name: Markdown
     file: markdown.svg
-    source: https://api.iconify.design/logos/markdown.svg
+    source: https://api.iconify.design/vscode-icons/file-type-markdown.svg
     source_type: iconify
     badge:
-      label: Markdown
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   mermaid:
@@ -308,9 +225,6 @@ logos:
     source: https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg
     source_type: official
     badge:
-      label: Mermaid
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   mlflow:
@@ -318,9 +232,6 @@ logos:
     file: mlflow.svg
     source_type: manual
     badge:
-      label: MLflow
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   mongodb:
@@ -329,9 +240,6 @@ logos:
     source: https://api.iconify.design/logos/mongodb-icon.svg
     source_type: iconify
     badge:
-      label: MongoDB
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   numpy:
@@ -340,9 +248,6 @@ logos:
     source: https://api.iconify.design/logos/numpy.svg
     source_type: iconify
     badge:
-      label: NumPy
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   nvidia:
@@ -351,9 +256,6 @@ logos:
     source: https://api.iconify.design/logos/nvidia.svg
     source_type: iconify
     badge:
-      label: NVIDIA
-      background: "#100000"
-      text_color: "#FFFFFF"
       logo_mode: wordmark
       enabled: true
 
@@ -363,9 +265,7 @@ logos:
     source: https://api.iconify.design/devicon/ollama.svg
     source_type: devicon
     badge:
-      label: Ollama
-      background: "#100000"
-      text_color: "#FFFFFF"
+      tone: neutral
       enabled: true
 
   opencode:
@@ -373,9 +273,6 @@ logos:
     file: opencode.svg
     source_type: manual
     badge:
-      label: OpenCode
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   pandas:
@@ -384,9 +281,6 @@ logos:
     source: https://api.iconify.design/logos/pandas-icon.svg
     source_type: iconify
     badge:
-      label: Pandas
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   perplexity:
@@ -395,9 +289,6 @@ logos:
     source: https://api.iconify.design/logos/perplexity.svg
     source_type: iconify
     badge:
-      label: Perplexity
-      background: "#100000"
-      text_color: "#FFFFFF"
       logo_mode: wordmark
       enabled: true
 
@@ -406,9 +297,6 @@ logos:
     file: platzi.svg
     source_type: manual
     badge:
-      label: Platzi
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   plotly:
@@ -417,9 +305,6 @@ logos:
     source: https://api.iconify.design/devicon/plotly.svg
     source_type: devicon
     badge:
-      label: Plotly
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   polars:
@@ -428,9 +313,6 @@ logos:
     source: https://raw.githubusercontent.com/pola-rs/polars-static/master/logos/polars_logo_blue.svg
     source_type: official
     badge:
-      label: Polars
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   postgresql:
@@ -439,9 +321,6 @@ logos:
     source: https://api.iconify.design/logos/postgresql.svg
     source_type: iconify
     badge:
-      label: PostgreSQL
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   precommit:
@@ -450,9 +329,6 @@ logos:
     source: https://raw.githubusercontent.com/pre-commit/pre-commit.com/main/logo.svg
     source_type: official
     badge:
-      label: pre-commit
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   prometheus:
@@ -461,9 +337,6 @@ logos:
     source: https://api.iconify.design/logos/prometheus.svg
     source_type: iconify
     badge:
-      label: Prometheus
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   pydantic:
@@ -472,9 +345,6 @@ logos:
     source: https://raw.githubusercontent.com/pydantic/brand/main/pydantic-logo-square-1000px-transparent.svg
     source_type: official
     badge:
-      label: Pydantic
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   python:
@@ -482,9 +352,6 @@ logos:
     file: python.svg
     source_type: manual
     badge:
-      label: Python
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   pytorch:
@@ -493,9 +360,6 @@ logos:
     source: https://api.iconify.design/logos/pytorch-icon.svg
     source_type: iconify
     badge:
-      label: PyTorch
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   redis:
@@ -504,9 +368,6 @@ logos:
     source: https://api.iconify.design/logos/redis.svg
     source_type: iconify
     badge:
-      label: Redis
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   ruff:
@@ -514,20 +375,14 @@ logos:
     file: ruff.svg
     source_type: manual
     badge:
-      label: Ruff
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   rust:
     name: Rust
     file: rust.svg
-    source: https://api.iconify.design/logos/rust.svg
-    source_type: iconify
+    source: https://www.rustacean.net/assets/rustacean-flat-happy.svg
+    source_type: community
     badge:
-      label: Rust
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   scikit-learn:
@@ -536,9 +391,6 @@ logos:
     source: https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo-without-subtitle.svg
     source_type: official
     badge:
-      label: scikit-learn
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   scipy:
@@ -547,9 +399,6 @@ logos:
     source: https://scipy.org/images/logo.svg
     source_type: official
     badge:
-      label: SciPy
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   sqlalchemy:
@@ -558,9 +407,6 @@ logos:
     source: https://api.iconify.design/devicon/sqlalchemy.svg
     source_type: devicon
     badge:
-      label: SQLAlchemy
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   svg:
@@ -569,9 +415,6 @@ logos:
     source: https://api.iconify.design/logos/svg.svg
     source_type: iconify
     badge:
-      label: SVG
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   terraform:
@@ -580,20 +423,14 @@ logos:
     source: https://api.iconify.design/logos/terraform-icon.svg
     source_type: iconify
     badge:
-      label: Terraform
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   toml:
     name: TOML
     file: toml.svg
-    source: https://api.iconify.design/logos/toml.svg
+    source: https://api.iconify.design/vscode-icons/file-type-toml.svg
     source_type: iconify
     badge:
-      label: TOML
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   udemy:
@@ -602,9 +439,6 @@ logos:
     source: https://api.iconify.design/logos/udemy.svg
     source_type: iconify
     badge:
-      label: Udemy
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   uml:
@@ -612,9 +446,6 @@ logos:
     file: uml.svg
     source_type: manual
     badge:
-      label: UML
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   uv:
@@ -623,9 +454,6 @@ logos:
     source: https://api.iconify.design/devicon/uv.svg
     source_type: devicon
     badge:
-      label: uv
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   warp:
@@ -633,29 +461,21 @@ logos:
     file: warp.svg
     source_type: manual
     badge:
-      label: Warp
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   yaml:
     name: YAML
     file: yaml.svg
-    source: https://api.iconify.design/logos/yaml.svg
+    source: https://api.iconify.design/vscode-icons/file-type-yaml-official.svg
     source_type: iconify
     badge:
-      label: YAML
-      background: "#100000"
-      text_color: "#FFFFFF"
       enabled: true
 
   zsh:
     name: Zsh
     file: zsh.svg
-    source: https://api.iconify.design/logos/zsh.svg
-    source_type: iconify
+    source: https://api.iconify.design/devicon/zsh.svg
+    source_type: devicon
     badge:
-      label: Zsh
-      background: "#100000"
-      text_color: "#FFFFFF"
+      tone: neutral
       enabled: true

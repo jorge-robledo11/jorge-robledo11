@@ -1,5 +1,5 @@
 """
-Build for-the-badge style SVGs locally from existing logo files.
+Build compact transparent SVG logo badges from existing local logo files.
 
 Reads config/logos.yaml + assets/logos/*.svg and emits assets/badges/*.svg.
 No network access. Multicolor logos are preserved via base64 embed.
@@ -15,26 +15,17 @@ from pathlib import Path
 
 from download_logos import LogoEntry, is_valid_svg, load_config
 
-HEIGHT = 28
-LOGO_SIZE = 16
+HEIGHT = 36
+ICON_SIZE = 28
 WORDMARK_WIDTH = 96
-SIDE_PAD = 10
-LOGO_TEXT_GAP = 6
-CHAR_W = 8.5
-FONT_FAMILY = 'Verdana, Geneva, DejaVu Sans, sans-serif'
-FONT_SIZE = 11
+SIDE_PAD = 4
 
 
-def estimate_text_width(label: str) -> int:
-	"""Return a conservative width reservation for the label text."""
-	return round(len(label.upper()) * CHAR_W)
-
-
-def badge_width(label: str, logo_mode: str = 'icon') -> int:
-	"""Return the badge width in pixels for the requested logo mode."""
+def badge_width(logo_mode: str = 'icon') -> int:
+	"""Return the transparent badge width for the requested logo mode."""
 	if logo_mode == 'wordmark':
 		return WORDMARK_WIDTH + SIDE_PAD * 2
-	return LOGO_SIZE + LOGO_TEXT_GAP + estimate_text_width(label) + SIDE_PAD * 2
+	return ICON_SIZE + SIDE_PAD * 2
 
 
 def status_line(verb: str, name: str, note: str) -> str:
@@ -65,55 +56,37 @@ def needs_rebuild(badge: Path, logo: Path, config_mtime: float) -> bool:
 	return config_mtime > badge_mtime
 
 
+def _logo_style(tone: str) -> str:
+	"""Return opt-in styling for monochrome logos that need stable contrast."""
+	if tone != 'neutral':
+		return ''
+
+	return '<style>.logo{filter:grayscale(1) brightness(0) invert(.55)}</style>'
+
+
 def build_badge_svg(
-	label: str,
-	background: str,
-	text_color: str,
+	name: str,
 	logo_b64: str,
 	logo_mode: str = 'icon',
+	tone: str = 'original',
 ) -> str:
-	"""Build one self-contained SVG badge."""
-	width = max(60, badge_width(label, logo_mode))
-	safe_label = escape(label, quote=True)
-	image_width = WORDMARK_WIDTH if logo_mode == 'wordmark' else LOGO_SIZE
-	image_y = (HEIGHT - LOGO_SIZE) // 2
-
-	if logo_mode == 'wordmark':
-		content_width = WORDMARK_WIDTH
-		content_left = (width - content_width) / 2
-		image = (
-			f'<image href="data:image/svg+xml;base64,{logo_b64}" '
-			f'x="{content_left:.1f}" y="{image_y}" '
-			f'width="{image_width}" height="{LOGO_SIZE}" '
-			f'preserveAspectRatio="xMidYMid meet"/>'
-		)
-		text = ''
-	else:
-		text_slot_width = estimate_text_width(label)
-		content_width = LOGO_SIZE + LOGO_TEXT_GAP + text_slot_width
-		content_left = (width - content_width) / 2
-		image = (
-			f'<image href="data:image/svg+xml;base64,{logo_b64}" '
-			f'x="{content_left:.1f}" y="{image_y}" '
-			f'width="{image_width}" height="{LOGO_SIZE}" '
-			f'preserveAspectRatio="xMidYMid meet"/>'
-		)
-
-		safe_label_upper = escape(label.upper())
-		text_center_x = content_left + LOGO_SIZE + LOGO_TEXT_GAP + text_slot_width / 2
-		text = (
-			f'<text x="{text_center_x:.1f}" '
-			f'y="{int(HEIGHT / 2 + FONT_SIZE / 2 - 2)}" '
-			f'fill="{text_color}" font-family="{FONT_FAMILY}" '
-			f'font-size="{FONT_SIZE}" font-weight="700" '
-			f'text-anchor="middle">{safe_label_upper}</text>'
-		)
+	"""Build one self-contained, transparent SVG containing only the logo."""
+	width = badge_width(logo_mode)
+	safe_name = escape(name, quote=True)
+	image_width = WORDMARK_WIDTH if logo_mode == 'wordmark' else ICON_SIZE
+	image_x = (width - image_width) / 2
+	image_y = (HEIGHT - ICON_SIZE) / 2
+	style = _logo_style(tone)
 
 	return (
 		f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{HEIGHT}" '
-		f'viewBox="0 0 {width} {HEIGHT}" role="img" aria-label="{safe_label}">'
-		f'<rect width="{width}" height="{HEIGHT}" fill="{background}"/>'
-		f'{image}{text}</svg>\n'
+		f'viewBox="0 0 {width} {HEIGHT}" role="img" aria-label="{safe_name}">'
+		f'{style}'
+		f'<image class="logo" href="data:image/svg+xml;base64,{logo_b64}" '
+		f'x="{image_x:.1f}" y="{image_y:.1f}" '
+		f'width="{image_width}" height="{ICON_SIZE}" '
+		f'preserveAspectRatio="xMidYMid meet"/>'
+		'</svg>\n'
 	)
 
 
@@ -163,11 +136,10 @@ def process(
 		try:
 			logo_b64 = b64encode(logo_path.read_bytes()).decode('ascii')
 			svg = build_badge_svg(
-				entry.badge_label,
-				entry.badge_background,
-				entry.badge_text_color,
+				entry.name,
 				logo_b64,
 				entry.badge_logo_mode,
+				entry.badge_tone,
 			)
 			atomic_write(badge_path, svg)
 		except OSError as exc:

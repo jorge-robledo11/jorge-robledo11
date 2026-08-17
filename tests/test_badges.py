@@ -7,6 +7,8 @@ from base64 import b64encode
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / 'scripts'
 if str(SCRIPTS) not in sys.path:
@@ -25,169 +27,117 @@ except ImportError:  # pragma: no cover - handled by skip decorator
 CONFIG = ROOT / 'config' / 'logos.yaml'
 LOGO_DIR = ROOT / 'assets' / 'logos'
 VISUAL_SCALE = 4
-EDGE_GUARD_PX = 4
-TEXT_WIDTH_SAFETY_PX = 8.0
 MIN_LOGO_AXIS_FILL = 0.30
+
+VALID_SVG = (
+	b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1">'
+	b'<path d="M0 0h1v1H0z"/></svg>'
+)
 
 
 def _svg_tag(name: str) -> str:
 	return f'{{http://www.w3.org/2000/svg}}{name}'
 
 
-def _hex_rgb(value: str) -> tuple[int, int, int]:
-	value = value.removeprefix('#')
-	return tuple(int(value[i : i + 2], 16) for i in (0, 2, 4))
-
-
-def _is_background_pixel(pixels, background, x: int, y: int) -> bool:
-	r, g, b, a = pixels[x, y]
-	return a == 255 and (r, g, b) == background
-
-
-def _build_svg(entry) -> str:
-	logo = LOGO_DIR / entry.file
-	encoded = b64encode(logo.read_bytes()).decode('ascii')
+def _build_svg(entry: LogoEntry, logo: bytes = VALID_SVG) -> str:
+	encoded = b64encode(logo).decode('ascii')
 	return build_logos.build_badge_svg(
-		entry.badge_label,
-		entry.badge_background,
-		entry.badge_text_color,
+		entry.name,
 		encoded,
 		entry.badge_logo_mode,
+		entry.badge_tone,
+	)
+
+
+def _entry(
+	*,
+	logo_mode: str = 'icon',
+	tone: str = 'original',
+	source_type: str = 'official',
+) -> LogoEntry:
+	return LogoEntry(
+		key='demo',
+		name='Demo',
+		file='demo.svg',
+		source=None if source_type == 'manual' else 'https://example.invalid/demo.svg',
+		source_type=source_type,
+		badge_enabled=True,
+		badge_logo_mode=logo_mode,
+		badge_tone=tone,
 	)
 
 
 class BadgeStructureTests(unittest.TestCase):
-	@classmethod
-	def setUpClass(cls) -> None:
-		cls.entries = [
-			entry
-			for entry in load_config(CONFIG)
-			if entry.badge_enabled and is_valid_svg(LOGO_DIR / entry.file)
-		]
+	def test_icon_badge_is_transparent_and_contains_only_logo(self) -> None:
+		root = ET.fromstring(_build_svg(_entry()))
+		width = int(root.attrib['width'])
+		height = int(root.attrib['height'])
+		image = root.find(_svg_tag('image'))
 
-	def test_generated_badges_have_viewbox_and_fixed_height(self) -> None:
-		failures: list[str] = []
+		self.assertEqual(width, build_logos.badge_width('icon'))
+		self.assertEqual(height, build_logos.HEIGHT)
+		self.assertEqual(root.attrib['viewBox'], f'0 0 {width} {height}')
+		self.assertIsNone(root.find(_svg_tag('rect')))
+		self.assertIsNone(root.find(_svg_tag('text')))
+		self.assertIsNotNone(image)
 
-		for entry in self.entries:
-			root = ET.fromstring(_build_svg(entry))
-			width = int(root.attrib['width'])
-			height = int(root.attrib['height'])
+	def test_logo_is_centered_with_symmetric_padding(self) -> None:
+		for logo_mode in ('icon', 'wordmark'):
+			with self.subTest(logo_mode=logo_mode):
+				root = ET.fromstring(_build_svg(_entry(logo_mode=logo_mode)))
+				image = root.find(_svg_tag('image'))
+				assert image is not None
 
-			if height != build_logos.HEIGHT:
-				failures.append(f'{entry.key}: height={height}')
-			if root.attrib.get('viewBox') != f'0 0 {width} {height}':
-				failures.append(f'{entry.key}: invalid/missing viewBox')
+				width = float(root.attrib['width'])
+				height = float(root.attrib['height'])
+				x = float(image.attrib['x'])
+				y = float(image.attrib['y'])
+				image_width = float(image.attrib['width'])
+				image_height = float(image.attrib['height'])
 
-		self.assertFalse(failures, '\n'.join(failures))
-
-	def test_text_slot_has_conservative_width_budget(self) -> None:
-		failures: list[str] = []
-
-		for entry in self.entries:
-			if entry.badge_logo_mode != 'icon':
-				continue
-
-			reserved = build_logos.estimate_text_width(entry.badge_label)
-			required = len(entry.badge_label.upper()) * TEXT_WIDTH_SAFETY_PX
-			if reserved < required:
-				failures.append(
-					f'{entry.key}: text slot {reserved:.1f}px '
-					f'< safe budget {required:.1f}px'
+				self.assertAlmostEqual(x, width - x - image_width)
+				self.assertAlmostEqual(y, height - y - image_height)
+				self.assertEqual(
+					image.attrib.get('preserveAspectRatio'),
+					'xMidYMid meet',
 				)
 
-		self.assertFalse(failures, '\n'.join(failures))
+	def test_wordmark_badge_keeps_a_wide_logo_slot(self) -> None:
+		root = ET.fromstring(_build_svg(_entry(logo_mode='wordmark')))
+		image = root.find(_svg_tag('image'))
+		assert image is not None
 
-	def test_content_has_symmetric_horizontal_padding(self) -> None:
+		self.assertEqual(float(image.attrib['width']), build_logos.WORDMARK_WIDTH)
+		self.assertEqual(int(root.attrib['width']), build_logos.badge_width('wordmark'))
+
+	def test_neutral_tone_is_opt_in(self) -> None:
+		original = _build_svg(_entry())
+		neutral = _build_svg(_entry(tone='neutral'))
+
+		self.assertNotIn('filter:', original)
+		self.assertIn('grayscale(1)', neutral)
+		self.assertIn('invert(.55)', neutral)
+
+	def test_config_has_no_legacy_badge_background_or_text_fields(self) -> None:
+		data = yaml.safe_load(CONFIG.read_text(encoding='utf-8'))
 		failures: list[str] = []
 
-		for entry in self.entries:
-			root = ET.fromstring(_build_svg(entry))
-			width = float(root.attrib['width'])
-			image = root.find(_svg_tag('image'))
-
-			if image is None:
-				failures.append(f'{entry.key}: missing <image>')
-				continue
-
-			left = float(image.attrib['x'])
-
-			if entry.badge_logo_mode == 'wordmark':
-				right = width - left - float(image.attrib['width'])
-			else:
-				text = root.find(_svg_tag('text'))
-				if text is None:
-					failures.append(f'{entry.key}: missing <text>')
-					continue
-
-				if text.attrib.get('text-anchor') != 'middle':
-					failures.append(f'{entry.key}: text-anchor must be middle')
-
-				text_width = build_logos.estimate_text_width(entry.badge_label)
-				text_center = float(text.attrib['x'])
-				right = width - (text_center + text_width / 2)
-
-			if abs(left - right) > 0.1:
-				failures.append(
-					f'{entry.key}: horizontal padding {left:.1f}px != {right:.1f}px'
-				)
-
-		self.assertFalse(failures, '\n'.join(failures))
-
-	def test_logo_image_box_is_inside_badge_and_preserves_aspect_ratio(self) -> None:
-		failures: list[str] = []
-
-		for entry in self.entries:
-			root = ET.fromstring(_build_svg(entry))
-			width = float(root.attrib['width'])
-			height = float(root.attrib['height'])
-			image = root.find(_svg_tag('image'))
-
-			if image is None:
-				failures.append(f'{entry.key}: missing <image>')
-				continue
-
-			x = float(image.attrib['x'])
-			y = float(image.attrib['y'])
-			image_width = float(image.attrib['width'])
-			image_height = float(image.attrib['height'])
-
-			if x < 0 or y < 0 or x + image_width > width or y + image_height > height:
-				failures.append(f'{entry.key}: logo image box escapes badge viewport')
-			if image.attrib.get('preserveAspectRatio') != 'xMidYMid meet':
-				failures.append(
-					f'{entry.key}: preserveAspectRatio must be xMidYMid meet'
-				)
-
-		self.assertFalse(failures, '\n'.join(failures))
-
-	def test_wordmark_badges_use_wide_logo_slot_without_duplicate_text(self) -> None:
-		failures: list[str] = []
-
-		for entry in self.entries:
-			if entry.badge_logo_mode != 'wordmark':
-				continue
-
-			root = ET.fromstring(_build_svg(entry))
-			image = root.find(_svg_tag('image'))
-			text = root.find(_svg_tag('text'))
-
-			if image is None:
-				failures.append(f'{entry.key}: missing <image>')
-				continue
-			if float(image.attrib['width']) != build_logos.WORDMARK_WIDTH:
-				failures.append(f'{entry.key}: wordmark slot width is incorrect')
-			if text is not None:
-				failures.append(
-					f'{entry.key}: wordmark badge must not duplicate label text'
-				)
+		for key, raw in data['logos'].items():
+			badge = raw.get('badge') or {}
+			legacy = {'label', 'background', 'text_color'} & badge.keys()
+			if legacy:
+				failures.append(f'{key}: {sorted(legacy)}')
 
 		self.assertFalse(failures, '\n'.join(failures))
 
 	def test_source_logos_are_scalable_svg_documents(self) -> None:
 		failures: list[str] = []
 
-		for entry in self.entries:
+		for entry in load_config(CONFIG):
 			logo = LOGO_DIR / entry.file
+			if not is_valid_svg(logo):
+				continue
+
 			try:
 				root = ET.parse(logo).getroot()
 			except ET.ParseError as exc:
@@ -199,9 +149,7 @@ class BadgeStructureTests(unittest.TestCase):
 				continue
 
 			has_viewbox = bool(root.attrib.get('viewBox'))
-			has_dimensions = bool(
-				root.attrib.get('width') and root.attrib.get('height')
-			)
+			has_dimensions = bool(root.attrib.get('width') and root.attrib.get('height'))
 			if not (has_viewbox or has_dimensions):
 				failures.append(
 					f'{entry.key}: SVG has neither viewBox nor width/height'
@@ -219,20 +167,8 @@ class ManualLogoTests(unittest.TestCase):
 			logo_dir.mkdir()
 			badge_dir.mkdir()
 
-			entry = LogoEntry(
-				key='manual-demo',
-				name='Manual Demo',
-				file='manual-demo.svg',
-				source=None,
-				source_type='manual',
-				badge_label='Manual Demo',
-				badge_background='#100000',
-				badge_text_color='#FFFFFF',
-				badge_enabled=True,
-			)
-
 			outcome = build_logos.process(
-				[entry],
+				[_entry(source_type='manual')],
 				logo_dir,
 				badge_dir,
 				config_mtime=0.0,
@@ -328,7 +264,7 @@ class BadgeVisualSafetyTests(unittest.TestCase):
 			png = cairosvg.svg2png(
 				url=str(logo),
 				output_width=build_logos.WORDMARK_WIDTH * VISUAL_SCALE,
-				output_height=build_logos.LOGO_SIZE * VISUAL_SCALE,
+				output_height=build_logos.ICON_SIZE * VISUAL_SCALE,
 			)
 			image = Image.open(io.BytesIO(png)).convert('RGBA')
 			bbox = image.getchannel('A').getbbox()
@@ -340,57 +276,6 @@ class BadgeVisualSafetyTests(unittest.TestCase):
 			if height_fill < 0.45:
 				failures.append(
 					f'{entry.key}: wordmark fills only {height_fill:.1%} of slot height'
-				)
-
-		self.assertFalse(failures, '\n'.join(failures))
-
-	def test_content_does_not_touch_badge_edges(self) -> None:
-		"""Catch clipped text/logos by requiring a clean background guard band."""
-		failures: list[str] = []
-
-		for entry in self.entries:
-			svg = _build_svg(entry)
-			png = cairosvg.svg2png(
-				bytestring=svg.encode('utf-8'),
-				scale=VISUAL_SCALE,
-			)
-
-			image = Image.open(io.BytesIO(png)).convert('RGBA')
-			pixels = image.load()
-			width, height = image.size
-			background = _hex_rgb(entry.badge_background)
-			guard = EDGE_GUARD_PX * VISUAL_SCALE
-
-			touched_edges: list[str] = []
-			if any(
-				not _is_background_pixel(pixels, background, x, y)
-				for x in range(guard)
-				for y in range(height)
-			):
-				touched_edges.append('left')
-			if any(
-				not _is_background_pixel(pixels, background, x, y)
-				for x in range(width - guard, width)
-				for y in range(height)
-			):
-				touched_edges.append('right')
-			if any(
-				not _is_background_pixel(pixels, background, x, y)
-				for y in range(guard)
-				for x in range(width)
-			):
-				touched_edges.append('top')
-			if any(
-				not _is_background_pixel(pixels, background, x, y)
-				for y in range(height - guard, height)
-				for x in range(width)
-			):
-				touched_edges.append('bottom')
-
-			if touched_edges:
-				edges = ', '.join(touched_edges)
-				failures.append(
-					f'{entry.key}: rendered content reaches {edges} edge(s)'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))

@@ -55,11 +55,10 @@ def main() -> int:
 
 		logo_b64 = b64encode(logo.read_bytes()).decode('ascii')
 		expected_badge = build_logos.build_badge_svg(
-			entry.badge_label,
-			entry.badge_background,
-			entry.badge_text_color,
+			entry.name,
 			logo_b64,
 			entry.badge_logo_mode,
+			entry.badge_tone,
 		)
 
 		actual_badge = badge.read_text(encoding='utf-8')

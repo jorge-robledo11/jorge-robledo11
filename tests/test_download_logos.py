@@ -26,9 +26,6 @@ def entry(*, source_type: str = 'official') -> download_logos.LogoEntry:
 		file='demo.svg',
 		source=None if source_type == 'manual' else 'https://example.invalid/demo.svg',
 		source_type=source_type,
-		badge_label='Demo',
-		badge_background='#100000',
-		badge_text_color='#FFFFFF',
 		badge_enabled=True,
 	)
 
