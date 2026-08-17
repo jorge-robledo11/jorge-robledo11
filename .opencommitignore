@@ -1,0 +1,6 @@
+# Large/generated visual assets add noise to the LLM diff.
+assets/badges/**
+assets/logos/**
+
+# Repomix/local context exports.
+*.xml

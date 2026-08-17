@@ -1,0 +1,48 @@
+name: OpenCommit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  readme:
+    name: Commit README
+    runs-on: self-hosted
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Load OpenCommit config
+        run: cat .github/opencommit.env >> "$GITHUB_ENV"
+
+      - name: Check environment
+        run: .github/scripts/check-environment.sh
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update README
+        run: .github/scripts/update-readme.sh
+
+      - name: Commit with OpenCommit
+        run: oco --yes --no-verify
+
+      - name: Show commit
+        run: |
+          echo
+          echo "Commit generado:"
+          git log -1 --pretty=format:'%h %s'
+          echo
+
+      - name: Push main
+        run: git push origin HEAD:main
