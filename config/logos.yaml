@@ -2,8 +2,8 @@ logos:
   apache-spark:
     name: Apache Spark
     file: apache-spark.svg
-    source: https://api.iconify.design/logos/apache-spark.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/apachespark
+    source_type: community
     badge:
       enabled: true
 
@@ -26,10 +26,9 @@ logos:
   claude:
     name: Claude
     file: claude.svg
-    source: https://api.iconify.design/logos/claude.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/claude
+    source_type: community
     badge:
-      logo_mode: wordmark
       enabled: true
 
   conventional-commits:
@@ -66,9 +65,9 @@ logos:
   delta-lake:
     name: Delta Lake
     file: delta-lake.svg
-    source_type: manual
+    source: https://github.com/delta-io/website/raw/refs/heads/main/public/favicon.svg
+    source_type: official
     badge:
-      logo_mode: wordmark
       enabled: true
 
   discord:
@@ -130,8 +129,8 @@ logos:
   google-gemini:
     name: Google Gemini
     file: google-gemini.svg
-    source: https://api.iconify.design/logos/google-gemini.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/googlegemini
+    source_type: community
     badge:
       enabled: true
 
@@ -164,6 +163,7 @@ logos:
     file: just.svg
     source_type: manual
     badge:
+      tone: neutral
       enabled: true
 
   jupyter:
@@ -191,8 +191,8 @@ logos:
   latex:
     name: LaTeX
     file: latex.svg
-    source: https://api.iconify.design/devicon/latex.svg
-    source_type: devicon
+    source: https://images.ctfassets.net/nrgyaltdicpt/451Wbu94Q1X3M5QIk74QLL/08e42061e965fb152a329ded74cdc3ce/overleaf-o-logo-primary.svg
+    source_type: official
     badge:
       enabled: true
 
@@ -217,6 +217,7 @@ logos:
     source: https://api.iconify.design/vscode-icons/file-type-markdown.svg
     source_type: iconify
     badge:
+      tone: neutral
       enabled: true
 
   mermaid:
@@ -251,12 +252,11 @@ logos:
       enabled: true
 
   nvidia:
-    name: NVIDIA
+    name: CUDA
     file: nvidia.svg
-    source: https://api.iconify.design/logos/nvidia.svg
+    source: https://api.iconify.design/catppuccin/cuda.svg
     source_type: iconify
     badge:
-      logo_mode: wordmark
       enabled: true
 
   ollama:
@@ -286,10 +286,9 @@ logos:
   perplexity:
     name: Perplexity
     file: perplexity.svg
-    source: https://api.iconify.design/logos/perplexity.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/perplexity
+    source_type: community
     badge:
-      logo_mode: wordmark
       enabled: true
 
   platzi:
@@ -404,8 +403,8 @@ logos:
   sqlalchemy:
     name: SQLAlchemy
     file: sqlalchemy.svg
-    source: https://api.iconify.design/devicon/sqlalchemy.svg
-    source_type: devicon
+    source: https://cdn.simpleicons.org/sqlalchemy
+    source_type: community
     badge:
       enabled: true
 
