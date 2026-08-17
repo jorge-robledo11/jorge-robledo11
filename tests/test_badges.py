@@ -149,7 +149,9 @@ class BadgeStructureTests(unittest.TestCase):
 				continue
 
 			has_viewbox = bool(root.attrib.get('viewBox'))
-			has_dimensions = bool(root.attrib.get('width') and root.attrib.get('height'))
+			has_dimensions = bool(
+				root.attrib.get('width') and root.attrib.get('height')
+			)
 			if not (has_viewbox or has_dimensions):
 				failures.append(
 					f'{entry.key}: SVG has neither viewBox nor width/height'

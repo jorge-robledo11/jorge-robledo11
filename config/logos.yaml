@@ -41,16 +41,16 @@ logos:
   coursera:
     name: Coursera
     file: coursera.svg
-    source: https://api.iconify.design/logos/coursera.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/coursera
+    source_type: community
     badge:
-      logo_mode: wordmark
       enabled: true
 
   credly:
     name: Credly
     file: credly.svg
-    source_type: manual
+    source: https://cdn.simpleicons.org/credly
+    source_type: community
     badge:
       enabled: true
 
@@ -435,8 +435,8 @@ logos:
   udemy:
     name: Udemy
     file: udemy.svg
-    source: https://api.iconify.design/logos/udemy.svg
-    source_type: iconify
+    source: https://cdn.simpleicons.org/udemy
+    source_type: community
     badge:
       enabled: true
 

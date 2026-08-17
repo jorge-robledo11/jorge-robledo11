@@ -48,7 +48,7 @@ I build data and machine learning systems that turn raw information into reliabl
 
 ### 🎓 **Certifications**
 
-Coursera · Udemy · [Credly](https://www.credly.com/users/jorge-robledo.8de15cb7/badges) · [Platzi](https://platzi.com/p/robledo.1337)
+![Coursera](assets/badges/coursera.svg) ![Udemy](assets/badges/udemy.svg) [![Credly](assets/badges/credly.svg)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges) [![Platzi](assets/badges/platzi.svg)](https://platzi.com/p/robledo.1337)
 
 ---
 
