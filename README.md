@@ -37,7 +37,7 @@ I build data and machine learning systems that turn raw information into reliabl
 ### **Stack**
 
 ![Python](assets/badges/python.svg) ![Rust](assets/badges/rust.svg) ![HTML5](assets/badges/html5.svg) ![Markdown](assets/badges/markdown.svg) ![Mermaid](assets/badges/mermaid.svg) ![UML](assets/badges/uml.svg) ![LaTeX](assets/badges/latex.svg) ![SVG](assets/badges/svg.svg) ![TOML](assets/badges/toml.svg) ![YAML](assets/badges/yaml.svg)
-![Jupyter](assets/badges/jupyter.svg) ![uv](assets/badges/uv.svg) ![Ruff](assets/badges/ruff.svg) ![pytest](assets/badges/pytest.svg) ![pre-commit](assets/badges/precommit.svg) ![OpenCommit](assets/badges/opencommit.svg) ![Linux](assets/badges/linux.svg) ![Zsh](assets/badges/zsh.svg) ![Just](assets/badges/just.svg) ![Warp](assets/badges/warp.svg) ![NVIDIA](assets/badges/nvidia.svg)
+![Jupyter](assets/badges/jupyter.svg) ![uv](assets/badges/uv.svg) ![Ruff](assets/badges/ruff.svg) ![pytest](assets/badges/pytest.svg) ![pre-commit](assets/badges/precommit.svg) ![OpenCommit](assets/badges/opencommit.svg) ![Linux](assets/badges/linux.svg) ![Zsh](assets/badges/zsh.svg) ![Just](assets/badges/just.svg) ![Warp](assets/badges/warp.svg) ![Visual Studio Code](assets/badges/vscode.svg) ![NVIDIA](assets/badges/nvidia.svg)
 ![Pandas](assets/badges/pandas.svg) ![NumPy](assets/badges/numpy.svg) ![SciPy](assets/badges/scipy.svg) ![Plotly](assets/badges/plotly.svg) ![Polars](assets/badges/polars.svg) ![Apache Spark](assets/badges/apache-spark.svg) ![scikit-learn](assets/badges/scikit-learn.svg) ![PyTorch](assets/badges/pytorch.svg) ![Hugging Face](assets/badges/hugging-face.svg)
 ![LangChain](assets/badges/langchain.svg) ![LangGraph](assets/badges/langgraph.svg) ![Ollama](assets/badges/ollama.svg) ![DVC](assets/badges/dvc.svg) ![MLflow](assets/badges/mlflow.svg) ![FastAPI](assets/badges/fastapi.svg) ![Pydantic](assets/badges/pydantic.svg) ![SQLAlchemy](assets/badges/sqlalchemy.svg)
 ![PostgreSQL](assets/badges/postgresql.svg) ![MongoDB](assets/badges/mongodb.svg) ![Redis](assets/badges/redis.svg) ![Docker](assets/badges/docker.svg) ![GitHub Actions](assets/badges/github-actions.svg) ![Git](assets/badges/git.svg) ![GitHub](assets/badges/github.svg) ![Conventional Commits](assets/badges/conventional-commits.svg)
@@ -49,16 +49,6 @@ I build data and machine learning systems that turn raw information into reliabl
 ### 🎓 **Certifications**
 
 ![Coursera](assets/badges/coursera.svg) ![Udemy](assets/badges/udemy.svg) [![Credly](assets/badges/credly.svg)](https://www.credly.com/users/jorge-robledo.8de15cb7/badges) [![Platzi](assets/badges/platzi.svg)](https://platzi.com/p/robledo.1337)
-
----
-
-### 🎮 **Beyond the Terminal**
-
-When I'm not working with data or building ML systems, you'll probably find me:
-
-- 🎮 Gaming and obsessing over strategy, systems, and optimization
-- 🎧 Discovering music and building playlists for every kind of coding session
-- 📚 Learning something completely unnecessary... until it suddenly becomes useful
 
 ---
 

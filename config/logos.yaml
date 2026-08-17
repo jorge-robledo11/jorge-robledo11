@@ -484,6 +484,13 @@ logos:
     badge:
       enabled: true
 
+  vscode:
+    name: Visual Studio Code
+    file: vscode.svg
+    source_type: manual
+    badge:
+      enabled: true
+
   yaml:
     name: YAML
     file: yaml.svg

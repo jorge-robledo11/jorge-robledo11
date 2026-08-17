@@ -1,13 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-  <!-- Transparent background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="TOML">
+  <title>TOML</title>
   <path fill="#9C4221"
         d="M30 30h120v60l-54 1v417l54 1v60H30V30zm419 0h120v539H449v-60l54-1V91l-54-1V30z"/>
-
-  <!-- Thin white outline around the black T -->
-  <path fill="#000000"
-        stroke="#FFFFFF"
-        stroke-width="10"
-        stroke-linejoin="round"
-        paint-order="stroke fill"
+  <path fill="#8B949E"
         d="M167 140h265v65l-100 1v290h-65V206l-100-1v-65z"/>
 </svg>
