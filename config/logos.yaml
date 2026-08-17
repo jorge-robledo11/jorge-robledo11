@@ -277,8 +277,7 @@ logos:
   pandas:
     name: Pandas
     file: pandas.svg
-    source: https://api.iconify.design/logos/pandas-icon.svg
-    source_type: iconify
+    source_type: manual
     badge:
       enabled: true
 
@@ -471,8 +470,6 @@ logos:
   zsh:
     name: Zsh
     file: zsh.svg
-    source: https://api.iconify.design/devicon/zsh.svg
-    source_type: devicon
+    source_type: manual
     badge:
-      tone: neutral
       enabled: true
