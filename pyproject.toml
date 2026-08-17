@@ -1,0 +1,51 @@
+[project]
+name = "me"
+version = "0.1.0"
+description = "GitHub profile assets and badge tooling"
+readme = "README.md"
+authors = [
+    { name = "Jorge Andrés Robledo Ariza", email = "robledo.11@hotmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "cairosvg>=2.9.0",
+    "pillow>=12.3.0",
+    "pre-commit>=4.6.0",
+    "pytest>=8.4.2",
+    "ruff>=0.15.17,<0.16",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "D",
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+    "SIM",
+    "RUF",
+]
+extend-select = ["D213"]
+ignore = ["D200", "D212"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "tab"
+docstring-code-format = true
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["D"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,84 @@
+fail_fast: false
+
+default_language_version:
+  python: python3.13
+
+default_install_hook_types:
+  - pre-commit
+  - pre-push
+
+repos:
+  # 1. Ruff: lint, modernización de sintaxis y formato
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.17
+    hooks:
+      - id: ruff-check
+        args:
+          - --fix
+          - --unsafe-fixes
+          - --exit-non-zero-on-fix
+      - id: ruff-format
+
+  # 2. Integridad de archivos del repositorio
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+        args:
+          - --allow-multiple-documents
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: detect-private-key
+      - id: check-added-large-files
+        args:
+          - --maxkb=750
+      - id: mixed-line-ending
+        args:
+          - --fix=lf
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  # 3. Convenciones propias del proyecto
+  - repo: local
+    hooks:
+      # Este proyecto usa exclusivamente .yaml.
+      - id: forbid-yml-files
+        name: prohibir archivos .yml
+        entry: "Usa la extensión .yaml en lugar de .yml:"
+        language: fail
+        files: '\.yml$'
+
+      # uv + pyproject.toml son la única fuente de dependencias.
+      - id: forbid-legacy-python-packaging
+        name: prohibir archivos legacy de packaging Python
+        entry: "Usa pyproject.toml y uv en lugar de archivos legacy:"
+        language: fail
+        files: '(^|/)(requirements(?:-[^/]+)?\.txt|setup\.py)$'
+
+      # Regenera badges si cambian sus fuentes o configuración.
+      - id: build-badges
+        name: regenerar badges
+        entry: just badges
+        language: system
+        pass_filenames: false
+        require_serial: true
+        files: '^(config/logos\.yaml|assets/logos/.*\.svg|scripts/build_logos\.py)$'
+
+      # Tests rápidos relacionados con el pipeline de badges.
+      - id: badge-tests
+        name: validar pipeline de badges
+        entry: just test-badges
+        language: system
+        pass_filenames: false
+        files: '^(config/logos\.yaml|assets/logos/.*\.svg|assets/badges/.*\.svg|scripts/(build|download)_logos\.py|tests/test_(badges|download_logos)\.py)$'
+
+      # Suite completa antes de hacer push, no en cada commit.
+      - id: test
+        name: tests del proyecto
+        entry: just test
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages:
+          - pre-push
