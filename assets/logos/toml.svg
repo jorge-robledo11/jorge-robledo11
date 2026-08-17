@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="#7f7f7f" d="M22.76 6.83v3.25h-5v15.09h-3.5V10.08h-5V6.83Z"/><path fill="#bfbfbf" d="M2 2h6.2v3.09H5.34v21.8H8.2V30H2Zm28 28h-6.2v-3.09h2.86V5.11H23.8V2H30Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Transparent background -->
+  <path fill="#9C4221"
+        d="M30 30h120v60l-54 1v417l54 1v60H30V30zm419 0h120v539H449v-60l54-1V91l-54-1V30z"/>
+
+  <!-- Thin white outline around the black T -->
+  <path fill="#000000"
+        stroke="#FFFFFF"
+        stroke-width="10"
+        stroke-linejoin="round"
+        paint-order="stroke fill"
+        d="M167 140h265v65l-100 1v290h-65V206l-100-1v-65z"/>
+</svg>

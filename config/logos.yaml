@@ -252,10 +252,9 @@ logos:
       enabled: true
 
   nvidia:
-    name: CUDA
+    name: NVIDIA
     file: nvidia.svg
-    source: https://api.iconify.design/catppuccin/cuda.svg
-    source_type: iconify
+    source_type: manual
     badge:
       enabled: true
 
@@ -427,8 +426,7 @@ logos:
   toml:
     name: TOML
     file: toml.svg
-    source: https://api.iconify.design/vscode-icons/file-type-toml.svg
-    source_type: iconify
+    source_type: manual
     badge:
       enabled: true
 
