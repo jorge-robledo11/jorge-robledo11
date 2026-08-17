@@ -175,7 +175,7 @@ def test_check_environment_works_without_network_using_fake_commands() -> None:
 			executable.chmod(0o755)
 
 		env = os.environ | {
-			'PATH': f"{fake_bin}:{os.environ.get('PATH', '')}",
+			'PATH': f'{fake_bin}:{os.environ.get("PATH", "")}',
 			'OCO_API_URL': 'http://127.0.0.1:11434',
 		}
 		result = _run(CHECK_SCRIPT, ROOT, env)
