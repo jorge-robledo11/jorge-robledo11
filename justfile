@@ -19,6 +19,10 @@ assets:
 badges:
     uv run python scripts/build_logos.py --force
 
+# Validar que todos los logos y badges estén listos para el README
+verify:
+    uv run python scripts/validate_assets.py
+
 # Ejecutar tests
 test:
     uv run pytest -q
