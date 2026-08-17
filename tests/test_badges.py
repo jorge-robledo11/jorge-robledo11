@@ -87,20 +87,49 @@ class BadgeStructureTests(unittest.TestCase):
 			if entry.badge_logo_mode != 'icon':
 				continue
 
+			reserved = build_logos.estimate_text_width(entry.badge_label)
+			required = len(entry.badge_label.upper()) * TEXT_WIDTH_SAFETY_PX
+			if reserved < required:
+				failures.append(
+					f'{entry.key}: text slot {reserved:.1f}px '
+					f'< safe budget {required:.1f}px'
+				)
+
+		self.assertFalse(failures, '\n'.join(failures))
+
+	def test_content_has_symmetric_horizontal_padding(self) -> None:
+		failures: list[str] = []
+
+		for entry in self.entries:
 			root = ET.fromstring(_build_svg(entry))
 			width = float(root.attrib['width'])
-			text = root.find(_svg_tag('text'))
-			if text is None:
-				failures.append(f'{entry.key}: missing <text>')
+			image = root.find(_svg_tag('image'))
+
+			if image is None:
+				failures.append(f'{entry.key}: missing <image>')
 				continue
 
-			text_x = float(text.attrib['x'])
-			available = width - text_x - build_logos.RIGHT_PAD
-			required = len(entry.badge_label.upper()) * TEXT_WIDTH_SAFETY_PX
-			if available < required:
+			left = float(image.attrib['x'])
+
+			if entry.badge_logo_mode == 'wordmark':
+				right = width - left - float(image.attrib['width'])
+			else:
+				text = root.find(_svg_tag('text'))
+				if text is None:
+					failures.append(f'{entry.key}: missing <text>')
+					continue
+
+				if text.attrib.get('text-anchor') != 'middle':
+					failures.append(f'{entry.key}: text-anchor must be middle')
+
+				text_width = build_logos.estimate_text_width(entry.badge_label)
+				text_center = float(text.attrib['x'])
+				right = width - (text_center + text_width / 2)
+
+			if abs(left - right) > 0.1:
 				failures.append(
-					f'{entry.key}: text slot {available:.1f}px '
-					f'< safe budget {required:.1f}px'
+					f'{entry.key}: horizontal padding {left:.1f}px '
+					f'!= {right:.1f}px'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))

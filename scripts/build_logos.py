@@ -18,19 +18,23 @@ from download_logos import LogoEntry, is_valid_svg, load_config
 HEIGHT = 28
 LOGO_SIZE = 16
 WORDMARK_WIDTH = 96
-LEFT_PAD = 8
+SIDE_PAD = 10
 LOGO_TEXT_GAP = 6
-RIGHT_PAD = 12
 CHAR_W = 8.5
 FONT_FAMILY = 'Verdana, Geneva, DejaVu Sans, sans-serif'
 FONT_SIZE = 11
 
 
+def estimate_text_width(label: str) -> int:
+	"""Return a conservative width reservation for the label text."""
+	return round(len(label.upper()) * CHAR_W)
+
+
 def badge_width(label: str, logo_mode: str = 'icon') -> int:
 	"""Return the badge width in pixels for the requested logo mode."""
 	if logo_mode == 'wordmark':
-		return LEFT_PAD + WORDMARK_WIDTH + RIGHT_PAD
-	return round(LEFT_PAD + LOGO_SIZE + LOGO_TEXT_GAP + len(label) * CHAR_W + RIGHT_PAD)
+		return WORDMARK_WIDTH + SIDE_PAD * 2
+	return LOGO_SIZE + LOGO_TEXT_GAP + estimate_text_width(label) + SIDE_PAD * 2
 
 
 def status_line(verb: str, name: str, note: str) -> str:
@@ -72,21 +76,42 @@ def build_badge_svg(
 	width = max(60, badge_width(label, logo_mode))
 	safe_label = escape(label, quote=True)
 	image_width = WORDMARK_WIDTH if logo_mode == 'wordmark' else LOGO_SIZE
-	image = (
-		f'<image href="data:image/svg+xml;base64,{logo_b64}" '
-		f'x="{LEFT_PAD}" y="{(HEIGHT - LOGO_SIZE) // 2}" '
-		f'width="{image_width}" height="{LOGO_SIZE}" '
-		f'preserveAspectRatio="xMidYMid meet"/>'
-	)
+	image_y = (HEIGHT - LOGO_SIZE) // 2
 
-	text = ''
-	if logo_mode == 'icon':
+	if logo_mode == 'wordmark':
+		content_width = WORDMARK_WIDTH
+		content_left = (width - content_width) / 2
+		image = (
+			f'<image href="data:image/svg+xml;base64,{logo_b64}" '
+			f'x="{content_left:.1f}" y="{image_y}" '
+			f'width="{image_width}" height="{LOGO_SIZE}" '
+			f'preserveAspectRatio="xMidYMid meet"/>'
+		)
+		text = ''
+	else:
+		text_slot_width = estimate_text_width(label)
+		content_width = LOGO_SIZE + LOGO_TEXT_GAP + text_slot_width
+		content_left = (width - content_width) / 2
+		image = (
+			f'<image href="data:image/svg+xml;base64,{logo_b64}" '
+			f'x="{content_left:.1f}" y="{image_y}" '
+			f'width="{image_width}" height="{LOGO_SIZE}" '
+			f'preserveAspectRatio="xMidYMid meet"/>'
+		)
+
 		safe_label_upper = escape(label.upper())
+		text_center_x = (
+			content_left
+			+ LOGO_SIZE
+			+ LOGO_TEXT_GAP
+			+ text_slot_width / 2
+		)
 		text = (
-			f'<text x="{LEFT_PAD + LOGO_SIZE + LOGO_TEXT_GAP}" '
+			f'<text x="{text_center_x:.1f}" '
 			f'y="{int(HEIGHT / 2 + FONT_SIZE / 2 - 2)}" '
 			f'fill="{text_color}" font-family="{FONT_FAMILY}" '
-			f'font-size="{FONT_SIZE}" font-weight="700">{safe_label_upper}</text>'
+			f'font-size="{FONT_SIZE}" font-weight="700" '
+			f'text-anchor="middle">{safe_label_upper}</text>'
 		)
 
 	return (
