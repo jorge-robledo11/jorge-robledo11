@@ -100,12 +100,7 @@ def build_badge_svg(
 		)
 
 		safe_label_upper = escape(label.upper())
-		text_center_x = (
-			content_left
-			+ LOGO_SIZE
-			+ LOGO_TEXT_GAP
-			+ text_slot_width / 2
-		)
+		text_center_x = content_left + LOGO_SIZE + LOGO_TEXT_GAP + text_slot_width / 2
 		text = (
 			f'<text x="{text_center_x:.1f}" '
 			f'y="{int(HEIGHT / 2 + FONT_SIZE / 2 - 2)}" '

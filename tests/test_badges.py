@@ -128,8 +128,7 @@ class BadgeStructureTests(unittest.TestCase):
 
 			if abs(left - right) > 0.1:
 				failures.append(
-					f'{entry.key}: horizontal padding {left:.1f}px '
-					f'!= {right:.1f}px'
+					f'{entry.key}: horizontal padding {left:.1f}px != {right:.1f}px'
 				)
 
 		self.assertFalse(failures, '\n'.join(failures))
