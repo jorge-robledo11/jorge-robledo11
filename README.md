@@ -1,30 +1,17 @@
-### **Hey there!** 😸
+## **Hey there!** 😸
 
-I'm Jorge Robledo, an **Economist, Data Scientist & Machine Learning Engineer** based in Barranquilla, Colombia.
+I'm Jorge Robledo — **Economist, Data Scientist & ML Engineer** based in Barranquilla, Colombia.
 
 ### **About me** 👋🏻
 
-I build data and machine learning systems that turn raw information into reliable, production-ready solutions. My background in Economics gives me a strong foundation in quantitative reasoning, while my work in Data Science and ML Engineering has pushed me toward software engineering, MLOps, data pipelines, cloud infrastructure, and AI systems.
+I build end-to-end ML systems: from data pipelines and experimentation to deployment, monitoring, and maintenance in production. My background in Economics gives me the quantitative and causal reasoning foundation; my work in engineering gives me the tooling to ship it reliably and reproducibly.
 
-- 🧠 **Machine Learning Engineer:** Building, evaluating, deploying, and maintaining ML systems end-to-end.
-- 📊 **Economist & Data Scientist:** Combining statistical thinking, economic modeling, experimentation, and data analysis.
-- ⚙️ **Engineering-minded:** Interested in reproducible workflows, clean architecture, automation, testing, observability, and developer tooling.
-- 🤖 **AI enthusiast:** Exploring local LLMs, AI agents, orchestration frameworks, and AI-assisted software development.
-- 🚀 **Self-taught builder:** Constantly experimenting with new languages, frameworks, infrastructure, and development workflows.
-- 🎮 **Gamer at heart:** Strategy, systems, and optimization strongly influence how I approach complex technical challenges.
-- 🎧 **Music & running:** Good playlists and regular runs are part of how I stay focused, curious, and productive.
-
----
-
-### 🚀 **Currently Exploring**
-
-- 🧠 Production-grade Machine Learning systems
-- 🤖 Local LLM workflows with Ollama
-- 🕸️ Agentic applications with LangGraph
-- ⚙️ Reproducible ML pipelines and MLOps
-- 🦀 Rust for high-performance tooling
-- ☁️ Cloud-native data and ML infrastructure
-- 🧪 Testing and software engineering practices for Data & ML
+- 🧠 **ML Engineering** — designing, training, and evaluating models, then deploying and monitoring them as real services with proper versioning and observability
+- 📊 **Data Science** — statistical inference, economic modeling, experimentation, and turning ambiguous questions into measurable ones
+- ⚙️ **Engineering practices** — reproducible workflows, clean architecture, testing, CI/CD, and automation applied to data and ML codebases
+- 🤖 **AI systems** — local LLM workflows, agentic applications, orchestration frameworks, and AI-assisted development
+- 🚀 **Self-taught builder** — constantly experimenting with new languages, infrastructure, and developer tooling
+- 🎮 **Off-hours** — strategy games, music, and running; systems thinking and optimization carry over into how I approach technical problems
 
 ---
 
@@ -34,7 +21,7 @@ I build data and machine learning systems that turn raw information into reliabl
 
 ---
 
-### **Stack**
+### 🛠️ **Stack**
 
 ![Python](assets/badges/python.svg) ![Rust](assets/badges/rust.svg) ![HTML5](assets/badges/html5.svg) ![Markdown](assets/badges/markdown.svg) ![Mermaid](assets/badges/mermaid.svg) ![UML](assets/badges/uml.svg) ![LaTeX](assets/badges/latex.svg) ![SVG](assets/badges/svg.svg) ![TOML](assets/badges/toml.svg) ![YAML](assets/badges/yaml.svg)
 ![Jupyter](assets/badges/jupyter.svg) ![uv](assets/badges/uv.svg) ![Ruff](assets/badges/ruff.svg) ![pytest](assets/badges/pytest.svg) ![pre-commit](assets/badges/precommit.svg) ![OpenCommit](assets/badges/opencommit.svg) ![Linux](assets/badges/linux.svg) ![Zsh](assets/badges/zsh.svg) ![Just](assets/badges/just.svg) ![Warp](assets/badges/warp.svg) ![Visual Studio Code](assets/badges/vscode.svg) ![NVIDIA](assets/badges/nvidia.svg)
